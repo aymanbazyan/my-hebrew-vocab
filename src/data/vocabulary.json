@@ -1,0 +1,4899 @@
+[
+  {
+    "id": "word-milah-001",
+    "note": "The plural form 'מילים' (milim) is grammatically masculine, despite the singular 'מילה' (milah) being feminine.",
+    "hebrew": "מילה",
+    "categories": ["Noun", "Language"],
+    "pronunciation_text": "milah",
+    "audio_url": "/audio/milah.mp3",
+    "forms": [
+      {
+        "type": "singular-female",
+        "text": "מילה"
+      },
+      {
+        "type": "plural-female",
+        "text": "מילים"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["كلمة", "لفظ"],
+        "english": ["word", "term"],
+        "example_sentences": [
+          {
+            "hebrew": "זוהי מילה חשובה.",
+            "translation_english": "This is an important word.",
+            "translation_arabic": "هذه كلمة مهمة.",
+            "word_to_highlight": "מילה"
+          },
+          {
+            "hebrew": "למדתי מילים חדשות היום.",
+            "translation_english": "I learned new words today.",
+            "translation_arabic": "تعلمت كلمات جديدة اليوم.",
+            "word_to_highlight": "מילים"
+          }
+        ]
+      },
+      {
+        "arabic": ["وعد"],
+        "english": ["promise"],
+        "example_sentences": [
+          {
+            "hebrew": "הוא נתן לי מילה.",
+            "translation_english": "He gave me his word (promise).",
+            "translation_arabic": "لقد أعطاني كلمته (وعد).",
+            "word_to_highlight": "מילה"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-lilmod-002",
+    "hebrew": "ללמוד",
+    "categories": ["Verb", "Education"],
+    "pronunciation_text": "lilmod",
+    "audio_url": "/audio/lilmod.mp3",
+    "forms": [
+      {
+        "type": "infinitive",
+        "text": "ללמוד"
+      },
+      {
+        "type": "present-singular-male",
+        "text": "לומד"
+      },
+      {
+        "type": "present-singular-female",
+        "text": "לומדת"
+      },
+      {
+        "type": "present-plural-male",
+        "text": "לומדים"
+      },
+      {
+        "type": "present-plural-female",
+        "text": "לומדות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["يتعلم", "يدرس"],
+        "english": ["to learn", "to study"],
+        "example_sentences": [
+          {
+            "hebrew": "אני רוצה ללמוד עברית.",
+            "translation_english": "I want to learn Hebrew.",
+            "translation_arabic": "أريد أن أتعلم اللغة العبرية.",
+            "word_to_highlight": "ללמוד"
+          },
+          {
+            "hebrew": "הוא לומד באוניברסיטה.",
+            "translation_english": "He studies at the university.",
+            "translation_arabic": "هو يدرس في الجامعة.",
+            "word_to_highlight": "לומד"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-bayit-003",
+    "hebrew": "בית",
+    "categories": ["Noun", "Place"],
+    "pronunciation_text": "bayit",
+    "audio_url": "/audio/bayit.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "בית"
+      },
+      {
+        "type": "plural-male",
+        "text": "בתים"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["بيت", "منزل"],
+        "english": ["house", "home"],
+        "example_sentences": [
+          {
+            "hebrew": "אני הולך הביתה.",
+            "translation_english": "I am going home.",
+            "translation_arabic": "أنا ذاهب إلى البيت.",
+            "word_to_highlight": "הביתה",
+            "note": "'הביתה' (habaytah) is a directional form meaning 'homeward' or 'to home'."
+          },
+          {
+            "hebrew": "יש לי בית חדש.",
+            "translation_english": "I have a new house.",
+            "translation_arabic": "لدي بيت جديد.",
+            "word_to_highlight": "בית"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-ochel-004",
+    "hebrew": "אוכל",
+    "categories": ["Noun", "Food"],
+    "pronunciation_text": "ochel",
+    "note": "Spelled the same as the masculine singular present tense of the verb 'לאכול' (le'ekhol - to eat).",
+    "audio_url": "/audio/ochel.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "אוכל"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["طعام", "أكل"],
+        "english": ["food"],
+        "example_sentences": [
+          {
+            "hebrew": "אני אוהב אוכל ישראלי.",
+            "translation_english": "I like Israeli food.",
+            "translation_arabic": "أنا أحب الطعام الإسرائيلي.",
+            "word_to_highlight": "אוכל"
+          },
+          {
+            "hebrew": "יש הרבה אוכל על השולחן.",
+            "translation_english": "There is a lot of food on the table.",
+            "translation_arabic": "هناك الكثير من الطعام على الطاولة.",
+            "word_to_highlight": "אוכל"
+          }
+        ]
+      },
+      {
+        "arabic": ["آكل"],
+        "english": ["eat (m.sg present)"],
+        "example_sentences": [
+          {
+            "hebrew": "אני אוכל תפוח עכשיו.",
+            "translation_english": "I am eating an apple now.",
+            "translation_arabic": "أنا آكل تفاحة الآن.",
+            "word_to_highlight": "אוכל"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-mayim-005",
+    "hebrew": "מים",
+    "note": "This noun is always grammatically plural (pluralia tantum), even when referring to a single body/instance of water.",
+    "categories": ["Noun", "Liquid"],
+    "pronunciation_text": "mayim",
+    "audio_url": "/audio/mayim.mp3",
+    "forms": [
+      {
+        "type": "plural",
+        "text": "מים"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["ماء"],
+        "english": ["water"],
+        "example_sentences": [
+          {
+            "hebrew": "אני רוצה לשתות מים.",
+            "translation_english": "I want to drink water.",
+            "translation_arabic": "أريد أن أشرب الماء.",
+            "word_to_highlight": "מים"
+          },
+          {
+            "hebrew": "המים קרים מאוד.",
+            "translation_english": "The water is very cold.",
+            "translation_arabic": "الماء بارد جدا.",
+            "word_to_highlight": "המים"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-sefer-006",
+    "hebrew": "ספר",
+    "categories": ["Noun", "Reading"],
+    "pronunciation_text": "sefer",
+    "audio_url": "/audio/sefer.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "ספר"
+      },
+      {
+        "type": "plural-male",
+        "text": "ספרים"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["كتاب"],
+        "english": ["book"],
+        "example_sentences": [
+          {
+            "hebrew": "קראתי ספר מעניין.",
+            "translation_english": "I read an interesting book.",
+            "translation_arabic": "قرأت كتابًا مثيرًا للاهتمام.",
+            "word_to_highlight": "ספר"
+          },
+          {
+            "hebrew": "יש לי הרבה ספרים.",
+            "translation_english": "I have many books.",
+            "translation_arabic": "لدي الكثير من الكتب.",
+            "word_to_highlight": "ספרים"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-gadol-007",
+    "hebrew": "גדול",
+    "categories": ["Adjective", "Size"],
+    "pronunciation_text": "gadol",
+    "audio_url": "/audio/gadol.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "גדול"
+      },
+      {
+        "type": "singular-female",
+        "text": "גדולה"
+      },
+      {
+        "type": "plural-male",
+        "text": "גדולים"
+      },
+      {
+        "type": "plural-female",
+        "text": "גדולות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["كبير"],
+        "english": ["big", "large"],
+        "example_sentences": [
+          {
+            "hebrew": "זה בית גדול.",
+            "translation_english": "This is a big house.",
+            "translation_arabic": "هذا بيت كبير.",
+            "word_to_highlight": "גדול"
+          },
+          {
+            "hebrew": "יש לה מכונית גדולה.",
+            "translation_english": "She has a large car.",
+            "translation_arabic": "لديها سيارة كبيرة.",
+            "word_to_highlight": "גדולה"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-katan-008",
+    "hebrew": "קטן",
+    "categories": ["Adjective", "Size"],
+    "pronunciation_text": "katan",
+    "audio_url": "/audio/katan.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "קטן"
+      },
+      {
+        "type": "singular-female",
+        "text": "קטנה"
+      },
+      {
+        "type": "plural-male",
+        "text": "קטנים"
+      },
+      {
+        "type": "plural-female",
+        "text": "קטנות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["صغير"],
+        "english": ["small", "little"],
+        "example_sentences": [
+          {
+            "hebrew": "זה חדר קטן.",
+            "translation_english": "This is a small room.",
+            "translation_arabic": "هذه غرفة صغيرة.",
+            "word_to_highlight": "קטן"
+          },
+          {
+            "hebrew": "יש לי כלבה קטנה.",
+            "translation_english": "I have a small dog (female).",
+            "translation_arabic": "لدي كلبة صغيرة.",
+            "word_to_highlight": "קטנה"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-tov-009",
+    "hebrew": "טוב",
+    "categories": ["Adjective", "Quality"],
+    "pronunciation_text": "tov",
+    "audio_url": "/audio/tov.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "טוב"
+      },
+      {
+        "type": "singular-female",
+        "text": "טובה"
+      },
+      {
+        "type": "plural-male",
+        "text": "טובים"
+      },
+      {
+        "type": "plural-female",
+        "text": "טובות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["جيد", "حسن"],
+        "english": ["good", "fine"],
+        "example_sentences": [
+          {
+            "hebrew": "זה יום טוב.",
+            "translation_english": "It is a good day.",
+            "translation_arabic": "إنه يوم جيد.",
+            "word_to_highlight": "טוב"
+          },
+          {
+            "hebrew": "היא מורה טובה.",
+            "translation_english": "She is a good teacher.",
+            "translation_arabic": "إنها معلمة جيدة.",
+            "word_to_highlight": "טובה"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-ra-010",
+    "hebrew": "רע",
+    "categories": ["Adjective", "Quality"],
+    "pronunciation_text": "ra",
+    "audio_url": "/audio/ra.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "רע"
+      },
+      {
+        "type": "singular-female",
+        "text": "רעה"
+      },
+      {
+        "type": "plural-male",
+        "text": "רעים"
+      },
+      {
+        "type": "plural-female",
+        "text": "רעות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["سيء"],
+        "english": ["bad", "evil"],
+        "example_sentences": [
+          {
+            "hebrew": "זה מזג אוויר רע.",
+            "translation_english": "It is bad weather.",
+            "translation_arabic": "إنه طقس سيء.",
+            "word_to_highlight": "רע"
+          },
+          {
+            "hebrew": "זו הייתה חוויה רעה.",
+            "translation_english": "This was a bad experience.",
+            "translation_arabic": "كانت هذه تجربة سيئة.",
+            "word_to_highlight": "רעה"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-lalekhet-011",
+    "hebrew": "ללכת",
+    "note": "This is an irregular verb. The infinitive form differs significantly from the present tense forms (e.g., הולך - holekh).",
+    "categories": ["Verb", "Movement"],
+    "pronunciation_text": "lalekhet",
+    "audio_url": "/audio/lalekhet.mp3",
+    "forms": [
+      {
+        "type": "infinitive",
+        "text": "ללכת"
+      },
+      {
+        "type": "present-singular-male",
+        "text": "הולך"
+      },
+      {
+        "type": "present-singular-female",
+        "text": "הולכת"
+      },
+      {
+        "type": "present-plural-male",
+        "text": "הולכים"
+      },
+      {
+        "type": "present-plural-female",
+        "text": "הולכות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["يذهب", "يمشي"],
+        "english": ["to go", "to walk"],
+        "example_sentences": [
+          {
+            "hebrew": "אני רוצה ללכת הביתה.",
+            "translation_english": "I want to go home.",
+            "translation_arabic": "أريد الذهاب إلى البيت.",
+            "word_to_highlight": "ללכת"
+          },
+          {
+            "hebrew": "הוא הולך ברחוב.",
+            "translation_english": "He is walking in the street.",
+            "translation_arabic": "هو يمشي في الشارع.",
+            "word_to_highlight": "הולך"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-leekhol-012",
+    "hebrew": "לאכול",
+    "categories": ["Verb", "Food"],
+    "note": "The masculine singular present tense form 'אוכל' (okhel) is spelled the same as the noun 'אוכל' (okhel - food).",
+    "pronunciation_text": "le'ekhol",
+    "audio_url": "/audio/le'ekhol.mp3",
+    "forms": [
+      {
+        "type": "infinitive",
+        "text": "לאכול"
+      },
+      {
+        "type": "present-singular-male",
+        "text": "אוכל"
+      },
+      {
+        "type": "present-singular-female",
+        "text": "אוכלת"
+      },
+      {
+        "type": "present-plural-male",
+        "text": "אוכלים"
+      },
+      {
+        "type": "present-plural-female",
+        "text": "אוכלות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["يأكل"],
+        "english": ["to eat"],
+        "example_sentences": [
+          {
+            "hebrew": "אני רוצה לאכול משהו.",
+            "translation_english": "I want to eat something.",
+            "translation_arabic": "أريد أن آكل شيئًا.",
+            "word_to_highlight": "לאכול"
+          },
+          {
+            "hebrew": "היא אוכלת ארוחת בוקר.",
+            "translation_english": "She is eating breakfast.",
+            "translation_arabic": "إنها تأكل وجبة الإفطار.",
+            "word_to_highlight": "אוכלת"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-ledaber-013",
+    "hebrew": "לדבר",
+    "categories": ["Verb", "Language"],
+    "pronunciation_text": "ledaber",
+    "audio_url": "/audio/ledaber.mp3",
+    "forms": [
+      {
+        "type": "infinitive",
+        "text": "לדבר"
+      },
+      {
+        "type": "present-singular-male",
+        "text": "מדבר"
+      },
+      {
+        "type": "present-singular-female",
+        "text": "מדברת"
+      },
+      {
+        "type": "present-plural-male",
+        "text": "מדברים"
+      },
+      {
+        "type": "present-plural-female",
+        "text": "מדברות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["يتكلم", "يتحدث"],
+        "english": ["to speak", "to talk"],
+        "example_sentences": [
+          {
+            "hebrew": "אני רוצה לדבר איתך.",
+            "translation_english": "I want to talk to you.",
+            "translation_arabic": "أريد التحدث معك.",
+            "word_to_highlight": "לדבר"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-ani-014",
+    "hebrew": "אני",
+    "categories": ["Pronoun"],
+    "pronunciation_text": "ani",
+    "audio_url": "/audio/ani.mp3",
+    "forms": [
+      {
+        "type": "singular",
+        "text": "אני"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["أنا"],
+        "english": ["I"],
+        "example_sentences": [
+          {
+            "hebrew": "אני לומד עברית.",
+            "translation_english": "I am learning Hebrew.",
+            "translation_arabic": "أنا أتعلم اللغة العبرية.",
+            "word_to_highlight": "אני"
+          },
+          {
+            "hebrew": "אני רוצה מים.",
+            "translation_english": "I want water.",
+            "translation_arabic": "أنا أريد ماء.",
+            "word_to_highlight": "אני"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-atah-015",
+    "hebrew": "אתה",
+    "categories": ["Pronoun"],
+    "pronunciation_text": "atah",
+    "audio_url": "/audio/atah.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "אתה"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["أنتَ (للمذكر)"],
+        "english": ["you (m.sg)"],
+        "example_sentences": [
+          {
+            "hebrew": "מה שלומך, אתה?",
+            "translation_english": "How are you (m.sg)?",
+            "translation_arabic": "كيف حالك يا أنتَ؟",
+            "word_to_highlight": "אתה"
+          },
+          {
+            "hebrew": "אתה גר כאן?",
+            "translation_english": "Do you (m.sg) live here?",
+            "translation_arabic": "هل تسكن هنا؟",
+            "word_to_highlight": "אתה"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-at-016",
+    "hebrew": "את",
+    "categories": ["Pronoun"],
+    "pronunciation_text": "at",
+    "audio_url": "/audio/at.mp3",
+    "forms": [
+      {
+        "type": "singular-female",
+        "text": "את"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["أنتِ (للمؤنث)"],
+        "english": ["you (f.sg)"],
+        "example_sentences": [
+          {
+            "hebrew": "מה שלומך, את?",
+            "translation_english": "How are you (f.sg)?",
+            "translation_arabic": "كيف حالك يا أنتِ؟",
+            "word_to_highlight": "את"
+          },
+          {
+            "hebrew": "את לומדת עברית?",
+            "translation_english": "Are you (f.sg) learning Hebrew?",
+            "translation_arabic": "هل تتعلمين العبرية؟",
+            "word_to_highlight": "את"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-ve-017",
+    "note": "Pronunciation varies: usually 've', changes to 'u' before letters ב, ו, מ, פ or a shva, and 'va' before certain vowel combinations.",
+    "hebrew": "וְ",
+    "categories": ["Conjunction"],
+    "pronunciation_text": "ve",
+    "audio_url": "/audio/ve.mp3",
+    "forms": [
+      {
+        "type": "standard",
+        "text": "וְ"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["و"],
+        "english": ["and"],
+        "example_sentences": [
+          {
+            "hebrew": "לחם וגבינה.",
+            "translation_english": "Bread and cheese.",
+            "translation_arabic": "خبز وجبن.",
+            "word_to_highlight": "ו"
+          },
+          {
+            "hebrew": "אני ואתה.",
+            "translation_english": "I and you.",
+            "translation_arabic": "أنا وأنتَ.",
+            "word_to_highlight": "ואתה"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-be-018",
+    "hebrew": "בְּ",
+    "note": "Pronunciation varies: usually 'be', changes to 'ba' when attached to a word with the definite article (בּ + ה = בַּ).",
+    "categories": ["Preposition"],
+    "pronunciation_text": "be",
+    "audio_url": "/audio/be.mp3",
+    "forms": [
+      {
+        "type": "standard",
+        "text": "בְּ"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["في", "بـ"],
+        "english": ["in", "at", "on", "by"],
+        "example_sentences": [
+          {
+            "hebrew": "אני גר בתל אביב.",
+            "translation_english": "I live in Tel Aviv.",
+            "translation_arabic": "أنا أسكن في تل أبيب.",
+            "word_to_highlight": "בתל"
+          },
+          {
+            "hebrew": "הספר על השולחן.",
+            "translation_english": "The book is on the table.",
+            "translation_arabic": "الكتاب على الطاولة.",
+            "word_to_highlight": "על"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-shulkhan-019",
+    "hebrew": "שולחן",
+    "note": "Although the plural form ends in ות (-ot), this noun is grammatically masculine.",
+    "categories": ["Noun", "Furniture", "Object"],
+    "pronunciation_text": "shulkhan",
+    "audio_url": "/audio/shulkhan.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "שולחן"
+      },
+      {
+        "type": "plural-male",
+        "text": "שולחנות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["طاولة", "مكتب"],
+        "english": ["table", "desk"],
+        "example_sentences": [
+          {
+            "hebrew": "יש ספר על השולחן.",
+            "translation_english": "There is a book on the table.",
+            "translation_arabic": "هناك كتاب على الطاولة.",
+            "word_to_highlight": "השולחן"
+          },
+          {
+            "hebrew": "קניתי שולחן חדש.",
+            "translation_english": "I bought a new table.",
+            "translation_arabic": "اشتريت طاولة جديدة.",
+            "word_to_highlight": "שולחן"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-kise-020",
+    "note": "Although the plural form ends in ות (-ot), this noun is grammatically masculine.",
+    "hebrew": "כיסא",
+    "categories": ["Noun", "Furniture", "Object"],
+    "pronunciation_text": "kise",
+    "audio_url": "/audio/kise.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "כיסא"
+      },
+      {
+        "type": "plural-male",
+        "text": "כיסאות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["كرسي"],
+        "english": ["chair"],
+        "example_sentences": [
+          {
+            "hebrew": "שב על הכיסא.",
+            "translation_english": "Sit on the chair.",
+            "translation_arabic": "اجلس على الكرسي.",
+            "word_to_highlight": "הכיסא"
+          },
+          {
+            "hebrew": "קנינו כיסאות חדשים.",
+            "translation_english": "We bought new chairs.",
+            "translation_arabic": "اشترينا كراسي جديدة.",
+            "word_to_highlight": "כיסאות"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-delet-021",
+    "hebrew": "דלת",
+    "categories": ["Noun", "Architecture", "Object"],
+    "pronunciation_text": "delet",
+    "audio_url": "/audio/delet.mp3",
+    "forms": [
+      {
+        "type": "singular-female",
+        "text": "דלת"
+      },
+      {
+        "type": "plural-female",
+        "text": "דלתות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["باب"],
+        "english": ["door"],
+        "example_sentences": [
+          {
+            "hebrew": "פתח את הדלת.",
+            "translation_english": "Open the door.",
+            "translation_arabic": "افتح الباب.",
+            "word_to_highlight": "הדלת"
+          },
+          {
+            "hebrew": "יש שלוש דלתות בחדר.",
+            "translation_english": "There are three doors in the room.",
+            "translation_arabic": "يوجد ثلاثة أبواب في الغرفة.",
+            "word_to_highlight": "דלתות"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-khalon-022",
+    "note": "Although the plural form ends in ות (-ot), this noun is grammatically masculine.",
+    "hebrew": "חלון",
+    "categories": ["Noun", "Architecture", "Object"],
+    "pronunciation_text": "khalon",
+    "audio_url": "/audio/khalon.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "חלון"
+      },
+      {
+        "type": "plural-male",
+        "text": "חלונות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["نافذة", "شباك"],
+        "english": ["window"],
+        "example_sentences": [
+          {
+            "hebrew": "סגור את החלון.",
+            "translation_english": "Close the window.",
+            "translation_arabic": "أغلق النافذة.",
+            "word_to_highlight": "החלון"
+          },
+          {
+            "hebrew": "כל החלונות פתוחים.",
+            "translation_english": "All the windows are open.",
+            "translation_arabic": "جميع النوافذ مفتوحة.",
+            "word_to_highlight": "החלונות"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-et-023",
+    "hebrew": "עט",
+    "categories": ["Noun", "Stationery", "Object"],
+    "pronunciation_text": "et",
+    "audio_url": "/audio/et.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "עט"
+      },
+      {
+        "type": "plural-male",
+        "text": "עטים"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["قلم حبر"],
+        "english": ["pen"],
+        "example_sentences": [
+          {
+            "hebrew": "אני כותב עם עט.",
+            "translation_english": "I am writing with a pen.",
+            "translation_arabic": "أنا أكتب بقلم.",
+            "word_to_highlight": "עט"
+          },
+          {
+            "hebrew": "יש לי הרבה עטים.",
+            "translation_english": "I have many pens.",
+            "translation_arabic": "لدي الكثير من الأقلام.",
+            "word_to_highlight": "עטים"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-iparon-024",
+    "note": "Although the plural form ends in ות (-ot), this noun is grammatically masculine.",
+    "hebrew": "עיפרון",
+    "categories": ["Noun", "Stationery", "Object"],
+    "pronunciation_text": "iparon",
+    "audio_url": "/audio/iparon.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "עיפרון"
+      },
+      {
+        "type": "plural-male",
+        "text": "עפרונות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["قلم رصاص"],
+        "english": ["pencil"],
+        "example_sentences": [
+          {
+            "hebrew": "ציירתי עם עיפרון.",
+            "translation_english": "I drew with a pencil.",
+            "translation_arabic": "رسمت بقلم رصاص.",
+            "word_to_highlight": "עיפרון"
+          },
+          {
+            "hebrew": "העפרונות שלך חדשים?",
+            "translation_english": "Are your pencils new?",
+            "translation_arabic": "هل أقلامك جديدة؟",
+            "word_to_highlight": "העפרונות"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-makhshev-025",
+    "hebrew": "מחשב",
+    "categories": ["Noun", "Technology", "Object"],
+    "pronunciation_text": "makhshev",
+    "audio_url": "/audio/makhshev.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "מחשב"
+      },
+      {
+        "type": "plural-male",
+        "text": "מחשבים"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["حاسوب", "كمبيوتر"],
+        "english": ["computer"],
+        "example_sentences": [
+          {
+            "hebrew": "אני עובד על המחשב.",
+            "translation_english": "I am working on the computer.",
+            "translation_arabic": "أنا أعمل على الحاسوب.",
+            "word_to_highlight": "המחשב"
+          },
+          {
+            "hebrew": "יש הרבה מחשבים במשרד.",
+            "translation_english": "There are many computers in the office.",
+            "translation_arabic": "هناك العديد من أجهزة الحاسوب في المكتب.",
+            "word_to_highlight": "מחשבים"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-telefon-026",
+    "hebrew": "טלפון",
+    "categories": ["Noun", "Technology", "Object"],
+    "pronunciation_text": "telefon",
+    "audio_url": "/audio/telefon.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "טלפון"
+      },
+      {
+        "type": "plural-male",
+        "text": "טלפונים"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["هاتف", "تليفون"],
+        "english": ["telephone", "phone"],
+        "example_sentences": [
+          {
+            "hebrew": "הטלפון שלי מצלצל.",
+            "translation_english": "My phone is ringing.",
+            "translation_arabic": "هاتفي يرن.",
+            "word_to_highlight": "הטלפון"
+          },
+          {
+            "hebrew": "קניתי טלפון חדש.",
+            "translation_english": "I bought a new phone.",
+            "translation_arabic": "اشتريت هاتفاً جديداً.",
+            "word_to_to_highlight": "טלפון"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-mafteakh-027",
+    "hebrew": "מפתח",
+    "note": "Although the plural form ends in ות (-ot), this noun is grammatically masculine.",
+    "categories": ["Noun", "Object"],
+    "pronunciation_text": "mafteakh",
+    "audio_url": "/audio/mafteakh.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "מפתח"
+      },
+      {
+        "type": "plural-male",
+        "text": "מפתחות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["مفتاح"],
+        "english": ["key"],
+        "example_sentences": [
+          {
+            "hebrew": "איפה המפתח שלי?",
+            "translation_english": "Where is my key?",
+            "translation_arabic": "أين مفتاحي؟",
+            "word_to_highlight": "המפתח"
+          },
+          {
+            "hebrew": "יש לי הרבה מפתחות.",
+            "translation_english": "I have many keys.",
+            "translation_arabic": "لدي الكثير من المفاتيح.",
+            "word_to_highlight": "מפתחות"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-mekhonit-028",
+    "hebrew": "מכונית",
+    "categories": ["Noun", "Vehicle", "Object"],
+    "pronunciation_text": "mekhonit",
+    "audio_url": "/audio/mekhonit.mp3",
+    "forms": [
+      {
+        "type": "singular-female",
+        "text": "מכונית"
+      },
+      {
+        "type": "plural-female",
+        "text": "מכוניות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["سيارة"],
+        "english": ["car"],
+        "example_sentences": [
+          {
+            "hebrew": "קניתי מכונית חדשה.",
+            "translation_english": "I bought a new car.",
+            "translation_arabic": "اشتريت سيارة جديدة.",
+            "word_to_highlight": "מכונית"
+          },
+          {
+            "hebrew": "יש הרבה מכוניות בכביש.",
+            "translation_english": "There are many cars on the road.",
+            "translation_arabic": "هناك العديد من السيارات على الطريق.",
+            "word_to_highlight": "מכוניות"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-ir-029",
+    "hebrew": "עיר",
+    "note": "The plural form עָרִים ('arim) is irregular.",
+    "categories": ["Noun", "Place"],
+    "pronunciation_text": "ir",
+    "audio_url": "/audio/ir.mp3",
+    "forms": [
+      {
+        "type": "singular-female",
+        "text": "עיר"
+      },
+      {
+        "type": "plural-female",
+        "text": "ערים"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["مدينة"],
+        "english": ["city", "town"],
+        "example_sentences": [
+          {
+            "hebrew": "אני גר בעיר גדולה.",
+            "translation_english": "I live in a big city.",
+            "translation_arabic": "أنا أسكن في مدينة كبيرة.",
+            "word_to_highlight": "בעיר"
+          },
+          {
+            "hebrew": "יש הרבה ערים בישראל.",
+            "translation_english": "There are many cities in Israel.",
+            "translation_arabic": "هناك العديد من المدن في إسرائيل.",
+            "word_to_highlight": "ערים"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-medina-030",
+    "hebrew": "מדינה",
+    "categories": ["Noun", "Place"],
+    "pronunciation_text": "medina",
+    "audio_url": "/audio/medina.mp3",
+    "forms": [
+      {
+        "type": "singular-female",
+        "text": "מדינה"
+      },
+      {
+        "type": "plural-female",
+        "text": "מדינות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["دولة", "بلد"],
+        "english": ["country", "state"],
+        "example_sentences": [
+          {
+            "hebrew": "איזו מדינה זו?",
+            "translation_english": "Which country is this?",
+            "translation_arabic": "أي دولة هذه؟",
+            "word_to_highlight": "מדינה"
+          },
+          {
+            "hebrew": "נסעתי למדינות רבות.",
+            "translation_english": "I traveled to many countries.",
+            "translation_arabic": "سافرت إلى العديد من الدول.",
+            "word_to_highlight": "למדינות"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-kheder-031",
+    "hebrew": "חדר",
+    "categories": ["Noun", "Place", "Architecture"],
+    "pronunciation_text": "kheder",
+    "audio_url": "/audio/kheder.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "חדר"
+      },
+      {
+        "type": "plural-male",
+        "text": "חדרים"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["غرفة"],
+        "english": ["room"],
+        "example_sentences": [
+          {
+            "hebrew": "אני בחדר שלי.",
+            "translation_english": "I am in my room.",
+            "translation_arabic": "أنا في غرفتي.",
+            "word_to_highlight": "בחדר"
+          },
+          {
+            "hebrew": "יש שלושה חדרים בדירה.",
+            "translation_english": "There are three rooms in the apartment.",
+            "translation_arabic": "يوجد ثلاث غرف في الشقة.",
+            "word_to_highlight": "חדרים"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-kesef-032",
+    "hebrew": "כסף",
+    "categories": ["Noun", "Economics"],
+    "pronunciation_text": "kesef",
+    "audio_url": "/audio/kesef.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "כסף"
+      }
+    ],
+    "note": "Kesef is generally used in singular form in modern Hebrew for the concept of money.",
+    "meanings": [
+      {
+        "arabic": ["مال", "نقود"],
+        "english": ["money", "silver"],
+        "example_sentences": [
+          {
+            "hebrew": "אין לי הרבה כסף.",
+            "translation_english": "I don't have much money.",
+            "translation_arabic": "ليس لدي الكثير من المال.",
+            "word_to_highlight": "כסף"
+          },
+          {
+            "hebrew": "אני צריך כסף לקנות ספר.",
+            "translation_english": "I need money to buy a book.",
+            "translation_arabic": "أحتاج إلى مال لشراء كتاب.",
+            "word_to_highlight": "כסף"
+          },
+          {
+            "hebrew": "אני צריך כסף לקנות ספר.",
+            "translation_english": "I need money to buy a book.",
+            "translation_arabic": "أحتاج مالاً لشراء كتاب.",
+            "word_to_highlight": "כסף"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-zman-033",
+    "hebrew": "זמן",
+    "categories": ["Noun", "Time"],
+    "pronunciation_text": "zman",
+    "audio_url": "/audio/zman.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "זמן"
+      }
+    ],
+    "note": "Zman is generally used in singular form for the concept of time.",
+    "meanings": [
+      {
+        "arabic": ["وقت", "زمن"],
+        "english": ["time"],
+        "example_sentences": [
+          {
+            "hebrew": "אין לי זמן.",
+            "translation_english": "I don't have time.",
+            "translation_arabic": "ليس لدي وقت.",
+            "word_to_highlight": "זמן"
+          },
+          {
+            "hebrew": "זה לוקח הרבה זמן.",
+            "translation_english": "It takes a lot of time.",
+            "translation_arabic": "هذا يستغرق وقتاً طويلاً.",
+            "word_to_highlight": "זמן"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-ish-034",
+    "hebrew": "איש",
+    "categories": ["Noun", "People"],
+    "pronunciation_text": "ish",
+    "audio_url": "/audio/ish.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "איש"
+      },
+      {
+        "type": "plural-male",
+        "text": "אנשים"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["رجل", "شخص"],
+        "english": ["man", "person"],
+        "example_sentences": [
+          {
+            "hebrew": "הוא איש טוב.",
+            "translation_english": "He is a good man.",
+            "translation_arabic": "إنه رجل طيب.",
+            "word_to_highlight": "איש"
+          },
+          {
+            "hebrew": "יש הרבה אנשים ברחוב.",
+            "translation_english": "There are many people in the street.",
+            "translation_arabic": "هناك الكثير من الناس في الشارع.",
+            "word_to_highlight": "אנשים"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-isha-035",
+    "hebrew": "אישה",
+    "categories": ["Noun", "People"],
+    "pronunciation_text": "isha",
+    "audio_url": "/audio/isha.mp3",
+    "forms": [
+      {
+        "type": "singular-female",
+        "text": "אישה"
+      },
+      {
+        "type": "plural-female",
+        "text": "נשים"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["امرأة", "زوجة"],
+        "english": ["woman", "wife"],
+        "example_sentences": [
+          {
+            "hebrew": "היא אישה חכמה.",
+            "translation_english": "She is a smart woman.",
+            "translation_arabic": "إنها امرأة ذكية.",
+            "word_to_highlight": "אישה"
+          },
+          {
+            "hebrew": "הנשים מדברות עברית.",
+            "translation_english": "The women are speaking Hebrew.",
+            "translation_arabic": "النساء يتحدثن العبرية.",
+            "word_to_highlight": "הנשים"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-yeled-036",
+    "hebrew": "ילד",
+    "categories": ["Noun", "People", "Family"],
+    "pronunciation_text": "yeled",
+    "audio_url": "/audio/yeled.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "ילד"
+      },
+      {
+        "type": "plural-male",
+        "text": "ילדים"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["ولد", "طفل"],
+        "english": ["boy", "child"],
+        "example_sentences": [
+          {
+            "hebrew": "הילד משחק בפארק.",
+            "translation_english": "The boy is playing in the park.",
+            "translation_arabic": "الولد يلعب في الحديقة.",
+            "word_to_highlight": "הילד"
+          },
+          {
+            "hebrew": "יש להם שלושה ילדים.",
+            "translation_english": "They have three children.",
+            "translation_arabic": "لديهم ثلاثة أطفال.",
+            "word_to_highlight": "ילדים"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-yalda-037",
+    "hebrew": "ילדה",
+    "categories": ["Noun", "People", "Family"],
+    "pronunciation_text": "yalda",
+    "audio_url": "/audio/yalda.mp3",
+    "forms": [
+      {
+        "type": "singular-female",
+        "text": "ילדה"
+      },
+      {
+        "type": "plural-female",
+        "text": "ילדות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["بنت", "طفلة"],
+        "english": ["girl", "child (female)"],
+        "example_sentences": [
+          {
+            "hebrew": "הילדה קוראת ספר.",
+            "translation_english": "The girl is reading a book.",
+            "translation_arabic": "البنت تقرأ كتاباً.",
+            "word_to_highlight": "הילדה"
+          },
+          {
+            "hebrew": "יש הרבה ילדות בכיתה.",
+            "translation_english": "There are many girls in the class.",
+            "translation_arabic": "هناك العديد من الفتيات في الصف.",
+            "word_to_highlight": "ילדות"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-khaver-038",
+    "hebrew": "חבר",
+    "categories": ["Noun", "People", "Relationship"],
+    "pronunciation_text": "khaver",
+    "audio_url": "/audio/khaver.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "חבר"
+      },
+      {
+        "type": "plural-male",
+        "text": "חברים"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["صديق", "عضو"],
+        "english": ["friend (m)", "member"],
+        "example_sentences": [
+          {
+            "hebrew": "הוא חבר שלי.",
+            "translation_english": "He is my friend.",
+            "translation_arabic": "إنه صديقي.",
+            "word_to_highlight": "חבר"
+          },
+          {
+            "hebrew": "יש לי חברים טובים.",
+            "translation_english": "I have good friends.",
+            "translation_arabic": "لدي أصدقاء جيدون.",
+            "word_to_highlight": "חברים"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-khavera-039",
+    "hebrew": "חברה",
+    "categories": ["Noun", "People", "Relationship"],
+    "pronunciation_text": "khavera",
+    "audio_url": "/audio/khavera.mp3",
+    "forms": [
+      {
+        "type": "singular-female",
+        "text": "חברה"
+      },
+      {
+        "type": "plural-female",
+        "text": "חברות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["صديقة", "شركة"],
+        "english": ["friend (f)", "company"],
+        "example_sentences": [
+          {
+            "hebrew": "היא חברה שלי.",
+            "translation_english": "She is my friend.",
+            "translation_arabic": "إنها صديقتي.",
+            "word_to_highlight": "חברה"
+          },
+          {
+            "hebrew": "יש לה חברות רבות.",
+            "translation_english": "She has many friends.",
+            "translation_arabic": "لديها العديد من الصديقات.",
+            "word_to_highlight": "חברות"
+          },
+          {
+            "hebrew": "אני עובד בחברה גדולה.",
+            "translation_english": "I work in a big company.",
+            "translation_arabic": "أنا أعمل في شركة كبيرة.",
+            "word_to_highlight": "בחברה"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-moreh-040",
+    "hebrew": "מורה",
+    "categories": ["Noun", "People", "Profession", "Education"],
+    "pronunciation_text": "moreh",
+    "audio_url": "/audio/moreh.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "מורה"
+      },
+      {
+        "type": "plural-male",
+        "text": "מורים"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["معلم", "أستاذ"],
+        "english": ["teacher (m)"],
+        "example_sentences": [
+          {
+            "hebrew": "הוא מורה טוב לעברית.",
+            "translation_english": "He is a good Hebrew teacher.",
+            "translation_arabic": "إنه معلم جيد للعبرية.",
+            "word_to_highlight": "מורה"
+          },
+          {
+            "hebrew": "המורים בבית הספר מלמדים טוב.",
+            "translation_english": "The teachers in the school teach well.",
+            "translation_arabic": "المعلمون في المدرسة يعلمون جيداً.",
+            "word_to_highlight": "המורים"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-morah-041",
+    "hebrew": "מורה",
+    "categories": ["Noun", "People", "Profession", "Education"],
+    "pronunciation_text": "morah",
+    "audio_url": "/audio/morah.mp3",
+    "forms": [
+      {
+        "type": "singular-female",
+        "text": "מורה"
+      },
+      {
+        "type": "plural-female",
+        "text": "מורות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["معلمة", "أستاذة"],
+        "english": ["teacher (f)"],
+        "example_sentences": [
+          {
+            "hebrew": "היא מורה חדשה.",
+            "translation_english": "She is a new teacher.",
+            "translation_arabic": "إنها معلمة جديدة.",
+            "word_to_highlight": "מורה"
+          },
+          {
+            "hebrew": "המורות שיתפו פעולה.",
+            "translation_english": "The teachers (f) cooperated.",
+            "translation_arabic": "المعلمات تعاونّ.",
+            "word_to_highlight": "המורות"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-talmid-042",
+    "hebrew": "תלמיד",
+    "categories": ["Noun", "People", "Education"],
+    "pronunciation_text": "talmid",
+    "audio_url": "/audio/talmid.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "תלמיד"
+      },
+      {
+        "type": "plural-male",
+        "text": "תלמידים"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["تلميذ", "طالب"],
+        "english": ["student (m)", "pupil"],
+        "example_sentences": [
+          {
+            "hebrew": "הוא תלמיד חרוץ.",
+            "translation_english": "He is a diligent student.",
+            "translation_arabic": "إنه تلميذ مجتهد.",
+            "word_to_highlight": "תלמיד"
+          },
+          {
+            "hebrew": "התלמידים לומדים למבחן.",
+            "translation_english": "The students are studying for the test.",
+            "translation_arabic": "الطلاب يدرسون للاختبار.",
+            "word_to_highlight": "התלמידים"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-talmida-043",
+    "hebrew": "תלמידה",
+    "categories": ["Noun", "People", "Education"],
+    "pronunciation_text": "talmida",
+    "audio_url": "/audio/talmida.mp3",
+    "forms": [
+      {
+        "type": "singular-female",
+        "text": "תלמידה"
+      },
+      {
+        "type": "plural-female",
+        "text": "תלמידות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["تلميذة", "طالبة"],
+        "english": ["student (f)", "pupil (female)"],
+        "example_sentences": [
+          {
+            "hebrew": "היא תלמידה מצוינת.",
+            "translation_english": "She is an excellent student.",
+            "translation_arabic": "إنها تلميذة ممتازة.",
+            "word_to_highlight": "תלמידה"
+          },
+          {
+            "hebrew": "התלמידות קראו את הספר.",
+            "translation_english": "The students (f) read the book.",
+            "translation_arabic": "التلميذات قرأن الكتاب.",
+            "word_to_highlight": "התלמידות"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-rofe-044",
+    "hebrew": "רופא",
+    "categories": ["Noun", "People", "Profession", "Health"],
+    "pronunciation_text": "rofe",
+    "audio_url": "/audio/rofe.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "רופא"
+      },
+      {
+        "type": "plural-male",
+        "text": "רופאים"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["طبيب"],
+        "english": ["doctor (m)"],
+        "example_sentences": [
+          {
+            "hebrew": "הרופא אמר לי לנוח.",
+            "translation_english": "The doctor told me to rest.",
+            "translation_arabic": "قال لي الطبيب أن أرتاح.",
+            "word_to_highlight": "הרופא"
+          },
+          {
+            "hebrew": "יש הרבה רופאים טובים בעיר הזו.",
+            "translation_english": "There are many good doctors in this city.",
+            "translation_arabic": "هناك العديد من الأطباء الجيدين في هذه المدينة.",
+            "word_to_highlight": "רופאים"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-rofa'a-045",
+    "hebrew": "רופאה",
+    "categories": ["Noun", "People", "Profession", "Health"],
+    "pronunciation_text": "rofa'a",
+    "audio_url": "/audio/rofa'a.mp3",
+    "forms": [
+      {
+        "type": "singular-female",
+        "text": "רופאה"
+      },
+      {
+        "type": "plural-female",
+        "text": "רופאות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["طبيبة"],
+        "english": ["doctor (f)"],
+        "example_sentences": [
+          {
+            "hebrew": "הרופאה בדקה אותי.",
+            "translation_english": "The doctor (f) examined me.",
+            "translation_arabic": "فحصتني الطبيبة.",
+            "word_to_highlight": "הרופאה"
+          },
+          {
+            "hebrew": "הרופאות עובדות בבית חולים.",
+            "translation_english": "The doctors (f) work in a hospital.",
+            "translation_arabic": "الطبيبات يعملن في المستشفى.",
+            "word_to_highlight": "הרופאות"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-beit-sefer-046",
+    "hebrew": "בית ספר",
+    "categories": ["Noun", "Place", "Education"],
+    "pronunciation_text": "beit sefer",
+    "audio_url": "/audio/beit_sefer.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "בית ספר"
+      },
+      {
+        "type": "plural-male",
+        "text": "בתי ספר"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["مدرسة"],
+        "english": ["school"],
+        "example_sentences": [
+          {
+            "hebrew": "אני הולך לבית ספר כל יום.",
+            "translation_english": "I go to school every day.",
+            "translation_arabic": "أذهب إلى المدرسة كل يوم.",
+            "word_to_highlight": "לבית ספר"
+          },
+          {
+            "hebrew": "יש הרבה בתי ספר טובים בעיר.",
+            "translation_english": "There are many good schools in the city.",
+            "translation_arabic": "هناك العديد من المدارس الجيدة في المدينة.",
+            "word_to_highlight": "בתי ספר"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-universita-047",
+    "hebrew": "אוניברסיטה",
+    "categories": ["Noun", "Place", "Education"],
+    "pronunciation_text": "universita",
+    "audio_url": "/audio/universita.mp3",
+    "forms": [
+      {
+        "type": "singular-female",
+        "text": "אוניברסיטה"
+      },
+      {
+        "type": "plural-female",
+        "text": "אוניברסיטאות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["جامعة"],
+        "english": ["university"],
+        "example_sentences": [
+          {
+            "hebrew": "הוא לומד באוניברסיטה בתל אביב.",
+            "translation_english": "He studies at the university in Tel Aviv.",
+            "translation_arabic": "هو يدرس في الجامعة في تل أبيب.",
+            "word_to_highlight": "באוניברסיטה"
+          },
+          {
+            "hebrew": "יש כמה אוניברסיטאות בישראל.",
+            "translation_english": "There are several universities in Israel.",
+            "translation_arabic": "هناك عدة جامعات في إسرائيل.",
+            "word_to_highlight": "אוניברסיטאות"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-mis'ada-048",
+    "hebrew": "מסעדה",
+    "categories": ["Noun", "Place", "Food"],
+    "pronunciation_text": "mis'ada",
+    "audio_url": "/audio/mis'ada.mp3",
+    "forms": [
+      {
+        "type": "singular-female",
+        "text": "מסעדה"
+      },
+      {
+        "type": "plural-female",
+        "text": "מסעדות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["مطعم"],
+        "english": ["restaurant"],
+        "example_sentences": [
+          {
+            "hebrew": "נלך למסעדה הערב?",
+            "translation_english": "Shall we go to a restaurant this evening?",
+            "translation_arabic": "هل نذهب إلى مطعم هذا المساء؟",
+            "word_to_highlight": "למסעדה"
+          },
+          {
+            "hebrew": "יש הרבה מסעדות טובות בעיר.",
+            "translation_english": "There are many good restaurants in the city.",
+            "translation_arabic": "هناك العديد من المطاعم الجيدة في المدينة.",
+            "word_to_highlight": "מסעדות"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-supermarket-049",
+    "hebrew": "סופרמרקט",
+    "categories": ["Noun", "Place", "Shopping"],
+    "pronunciation_text": "supermarket",
+    "audio_url": "/audio/supermarket.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "סופרמרקט"
+      },
+      {
+        "type": "plural-male",
+        "text": "סופרמרקטים"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["سوبر ماركت"],
+        "english": ["supermarket"],
+        "example_sentences": [
+          {
+            "hebrew": "קניתי אוכל בסופרמרקט.",
+            "translation_english": "I bought food at the supermarket.",
+            "translation_arabic": "اشتريت طعاماً من السوبر ماركت.",
+            "word_to_highlight": "בסופרמרקט"
+          },
+          {
+            "hebrew": "יש סופרמרקטים גדולים בעיר.",
+            "translation_english": "There are big supermarkets in the city.",
+            "translation_arabic": "يوجد سوبر ماركت كبيرة في المدينة.",
+            "word_to_highlight": "סופרמרקטים"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-bank-050",
+    "hebrew": "בנק",
+    "categories": ["Noun", "Place", "Economics"],
+    "pronunciation_text": "bank",
+    "audio_url": "/audio/bank.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "בנק"
+      },
+      {
+        "type": "plural-male",
+        "text": "בנקים"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["بنك", "مصرف"],
+        "english": ["bank"],
+        "example_sentences": [
+          {
+            "hebrew": "הלכתי לבנק למשוך כסף.",
+            "translation_english": "I went to the bank to withdraw money.",
+            "translation_arabic": "ذهبت إلى البنك لسحب المال.",
+            "word_to_highlight": "לבנק"
+          },
+          {
+            "hebrew": "יש הרבה בנקים במרכז העיר.",
+            "translation_english": "There are many banks in the city center.",
+            "translation_arabic": "يوجد العديد من البنوك في وسط المدينة.",
+            "word_to_highlight": "בנקים"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-park-051",
+    "hebrew": "פארק",
+    "categories": ["Noun", "Place"],
+    "pronunciation_text": "park",
+    "audio_url": "/audio/park.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "פארק"
+      },
+      {
+        "type": "plural-male",
+        "text": "פארקים"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["حديقة"],
+        "english": ["park"],
+        "example_sentences": [
+          {
+            "hebrew": "הילדים משחקים בפארק.",
+            "translation_english": "The children are playing in the park.",
+            "translation_arabic": "الأطفال يلعبون في الحديقة.",
+            "word_to_highlight": "בפארק"
+          },
+          {
+            "hebrew": "יש פארקים יפים בעיר.",
+            "translation_english": "There are beautiful parks in the city.",
+            "translation_arabic": "يوجد حدائق جميلة في المدينة.",
+            "word_to_highlight": "פארקים"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-rekhov-052",
+    "hebrew": "רחוב",
+    "categories": ["Noun", "Place"],
+    "pronunciation_text": "rekhov",
+    "audio_url": "/audio/rekhov.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "רחוב"
+      },
+      {
+        "type": "plural-male",
+        "text": "רחובות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["شارع"],
+        "english": ["street", "road"],
+        "example_sentences": [
+          {
+            "hebrew": "אני הולך ברחוב.",
+            "translation_english": "I am walking in the street.",
+            "translation_arabic": "أنا أمشي في الشارع.",
+            "word_to_highlight": "ברחוב"
+          },
+          {
+            "hebrew": "יש הרבה חנויות ברחוב הזה.",
+            "translation_english": "There are many shops on this street.",
+            "translation_arabic": "يوجد العديد من المتاجر في هذا الشارع.",
+            "word_to_highlight": "ברחוב"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-kikar-053",
+    "hebrew": "כיכר",
+    "categories": ["Noun", "Place"],
+    "pronunciation_text": "kikar",
+    "audio_url": "/audio/kikar.mp3",
+    "forms": [
+      {
+        "type": "singular-female",
+        "text": "כיכר"
+      },
+      {
+        "type": "plural-female",
+        "text": "כיכרות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["ساحة", "دوار"],
+        "english": ["square", "roundabout"],
+        "example_sentences": [
+          {
+            "hebrew": "נפגש בכיכר העיר.",
+            "translation_english": "We will meet in the city square.",
+            "translation_arabic": "سنجتمع في ساحة المدينة.",
+            "word_to_highlight": "בכיכר"
+          },
+          {
+            "hebrew": "יש כיכרות גדולות בתל אביב.",
+            "translation_english": "There are large squares in Tel Aviv.",
+            "translation_arabic": "يوجد ساحات كبيرة في تل أبيب.",
+            "word_to_highlight": "כיכרות"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-televizya-054",
+    "hebrew": "טלויזיה",
+    "categories": ["Noun", "Technology", "Object"],
+    "pronunciation_text": "televizya",
+    "audio_url": "/audio/televizya.mp3",
+    "forms": [
+      {
+        "type": "singular-female",
+        "text": "טלויזיה"
+      },
+      {
+        "type": "plural-female",
+        "text": "טלויזיות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["تلفزيون"],
+        "english": ["television", "TV"],
+        "example_sentences": [
+          {
+            "hebrew": "אני צופה בטלויזיה בערב.",
+            "translation_english": "I watch television in the evening.",
+            "translation_arabic": "أشاهد التلفزيون في المساء.",
+            "word_to_highlight": "בטלויזיה"
+          },
+          {
+            "hebrew": "יש לנו טלויזיה חדשה.",
+            "translation_english": "We have a new television.",
+            "translation_arabic": "لدينا تلفزيون جديد.",
+            "word_to_highlight": "טלויזיה"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-radio-055",
+    "hebrew": "רדיו",
+    "categories": ["Noun", "Technology", "Object"],
+    "pronunciation_text": "radio",
+    "audio_url": "/audio/radio.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "רדיו"
+      },
+      {
+        "type": "plural-male",
+        "text": "רדיו"
+      }
+    ],
+    "note": "'Radio' often doesn't change in plural in common usage",
+    "meanings": [
+      {
+        "arabic": ["راديو"],
+        "english": ["radio"],
+        "example_sentences": [
+          {
+            "hebrew": "אני שומע רדיו באוטו.",
+            "translation_english": "I listen to the radio in the car.",
+            "translation_arabic": "أستمع إلى الراديو في السيارة.",
+            "word_to_highlight": "רדיו"
+          },
+          {
+            "hebrew": "קניתי רדיו חדש.",
+            "translation_english": "I bought a new radio.",
+            "translation_arabic": "اشتريت راديو جديداً.",
+            "word_to_highlight": "רדיו"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-iton-056",
+    "hebrew": "עיתון",
+    "categories": ["Noun", "Reading", "Object"],
+    "pronunciation_text": "iton",
+    "audio_url": "/audio/iton.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "עיתון"
+      },
+      {
+        "type": "plural-male",
+        "text": "עיתונים"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["جريدة", "صحيفة"],
+        "english": ["newspaper"],
+        "example_sentences": [
+          {
+            "hebrew": "אני קורא עיתון בבוקר.",
+            "translation_english": "I read a newspaper in the morning.",
+            "translation_arabic": "أقرأ جريدة في الصباح.",
+            "word_to_highlight": "עיתון"
+          },
+          {
+            "hebrew": "יש הרבה עיתונים שונים.",
+            "translation_english": "There are many different newspapers.",
+            "translation_arabic": "يوجد العديد من الصحف المختلفة.",
+            "word_to_highlight": "עיתונים"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-magazin-057",
+    "hebrew": "מגזין",
+    "categories": ["Noun", "Reading", "Object"],
+    "pronunciation_text": "magazin",
+    "audio_url": "/audio/magazin.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "מגזין"
+      },
+      {
+        "type": "plural-male",
+        "text": "מגזינים"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["مجلة"],
+        "english": ["magazine"],
+        "example_sentences": [
+          {
+            "hebrew": "קניתי מגזין חדש.",
+            "translation_english": "I bought a new magazine.",
+            "translation_arabic": "اشتريت مجلة جديدة.",
+            "word_to_highlight": "מגזין"
+          },
+          {
+            "hebrew": "יש הרבה מגזינים מעניינים.",
+            "translation_english": "There are many interesting magazines.",
+            "translation_arabic": "يوجد العديد من المجلات المثيرة للاهتمام.",
+            "word_to_highlight": "מגזינים"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-mikhtav-058",
+    "hebrew": "מכתב",
+    "categories": ["Noun", "Communication", "Object"],
+    "pronunciation_text": "mikhtav",
+    "audio_url": "/audio/mikhtav.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "מכתב"
+      },
+      {
+        "type": "plural-male",
+        "text": "מכתבים"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["رسالة"],
+        "english": ["letter"],
+        "example_sentences": [
+          {
+            "hebrew": "שלחתי מכתב לחבר שלי.",
+            "translation_english": "I sent a letter to my friend.",
+            "translation_arabic": "أرسلت رسالة إلى صديقي.",
+            "word_to_highlight": "מכתב"
+          },
+          {
+            "hebrew": "קיבלתי מכתבים רבים היום.",
+            "translation_english": "I received many letters today.",
+            "translation_arabic": "استلمت العديد من الرسائل اليوم.",
+            "word_to_highlight": "מכתבים"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-khavila-059",
+    "hebrew": "חבילה",
+    "categories": ["Noun", "Object"],
+    "pronunciation_text": "khavila",
+    "audio_url": "/audio/khavila.mp3",
+    "forms": [
+      {
+        "type": "singular-female",
+        "text": "חבילה"
+      },
+      {
+        "type": "plural-female",
+        "text": "חבילות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["طرد", "حزمة", "باقة"],
+        "english": ["package", "bundle", "pack"],
+        "example_sentences": [
+          {
+            "hebrew": "קיבלתי חבילה בדואר.",
+            "translation_english": "I received a package by mail.",
+            "translation_arabic": "استلمت طرداً بالبريد.",
+            "word_to_highlight": "חבילה"
+          },
+          {
+            "hebrew": "קניתי חבילות קפה.",
+            "translation_english": "I bought packs of coffee.",
+            "translation_arabic": "اشتريت عبوات قهوة.",
+            "word_to_highlight": "חבילות"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-begadim-060",
+    "hebrew": "בגדים",
+    "categories": ["Noun", "Clothing", "Object"],
+    "pronunciation_text": "begadim",
+    "audio_url": "/audio/begadim.mp3",
+    "forms": [
+      {
+        "type": "plural-male",
+        "text": "בגדים"
+      }
+    ],
+    "note": "This noun is typically used in the plural form in modern Hebrew",
+    "meanings": [
+      {
+        "arabic": ["ملابس", "ثياب"],
+        "english": ["clothes", "clothing"],
+        "example_sentences": [
+          {
+            "hebrew": "קניתי בגדים חדשים.",
+            "translation_english": "I bought new clothes.",
+            "translation_arabic": "اشتريت ملابس جديدة.",
+            "word_to_highlight": "בגדים"
+          },
+          {
+            "hebrew": "הבגדים נקיים.",
+            "translation_english": "The clothes are clean.",
+            "translation_arabic": "الملابس نظيفة.",
+            "word_to_highlight": "הבגדים"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-na'al-061",
+    "hebrew": "נעל",
+    "categories": ["Noun", "Clothing", "Object"],
+    "pronunciation_text": "na'al",
+    "audio_url": "/audio/na'al.mp3",
+    "forms": [
+      {
+        "type": "singular-female",
+        "text": "נעל"
+      },
+      {
+        "type": "plural-feminine",
+        "text": "נעליים"
+      }
+    ],
+    "note": "Note: נעליים is grammatically a dual form but used as plural",
+    "meanings": [
+      {
+        "arabic": ["حذاء (مفرد)"],
+        "english": ["shoe"],
+        "example_sentences": [
+          {
+            "hebrew": "איפה הנעל שלי?",
+            "translation_english": "Where is my shoe?",
+            "translation_arabic": "أين حذائي؟",
+            "word_to_highlight": "הנעל"
+          },
+          {
+            "hebrew": "קניתי נעליים חדשות.",
+            "translation_english": "I bought new shoes.",
+            "translation_arabic": "اشتريت حذاء جديداً.",
+            "word_to_highlight": "נעליים"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-lekhem-062",
+    "hebrew": "לחם",
+    "categories": ["Noun", "Food"],
+    "pronunciation_text": "lekhem",
+    "audio_url": "/audio/lekhem.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "לחם"
+      }
+    ],
+    "note": "Often used in singular for the concept, but has plural forms too depending on context.",
+    "meanings": [
+      {
+        "arabic": ["خبز"],
+        "english": ["bread"],
+        "example_sentences": [
+          {
+            "hebrew": "אני רוצה לקנות לחם.",
+            "translation_english": "I want to buy bread.",
+            "translation_arabic": "أريد شراء الخبز.",
+            "word_to_highlight": "לחם"
+          },
+          {
+            "hebrew": "הלחם טרי.",
+            "translation_english": "The bread is fresh.",
+            "translation_arabic": "الخبز طازج.",
+            "word_to_highlight": "הלחם"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-khalav-063",
+    "hebrew": "חלב",
+    "categories": ["Noun", "Food", "Liquid"],
+    "pronunciation_text": "khalav",
+    "audio_url": "/audio/khalav.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "חלב"
+      }
+    ],
+    "note": "Mass noun, typically singular",
+    "meanings": [
+      {
+        "arabic": ["حليب", "لبن"],
+        "english": ["milk"],
+        "example_sentences": [
+          {
+            "hebrew": "אני שותה חלב כל בוקר.",
+            "translation_english": "I drink milk every morning.",
+            "translation_arabic": "أشرب الحليب كل صباح.",
+            "word_to_highlight": "חלב"
+          },
+          {
+            "hebrew": "החלב קר.",
+            "translation_english": "The milk is cold.",
+            "translation_arabic": "الحليب بارد.",
+            "word_to_highlight": "החלב"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-kafe-064",
+    "hebrew": "קפה",
+    "categories": ["Noun", "Food", "Drink"],
+    "pronunciation_text": "kafe",
+    "audio_url": "/audio/kafe.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "קפה"
+      }
+    ],
+    "note": "Typically singular",
+    "meanings": [
+      {
+        "arabic": ["قهوة"],
+        "english": ["coffee"],
+        "example_sentences": [
+          {
+            "hebrew": "אני רוצה לשתות קפה.",
+            "translation_english": "I want to drink coffee.",
+            "translation_arabic": "أريد شرب القهوة.",
+            "word_to_highlight": "קפה"
+          },
+          {
+            "hebrew": "הקפה חם מדי.",
+            "translation_english": "The coffee is too hot.",
+            "translation_arabic": "القهوة ساخنة جداً.",
+            "word_to_highlight": "הקפה"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-te-065",
+    "hebrew": "תה",
+    "categories": ["Noun", "Food", "Drink"],
+    "pronunciation_text": "te",
+    "audio_url": "/audio/te.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "תה"
+      }
+    ],
+    "note": "Typically singular",
+    "meanings": [
+      {
+        "arabic": ["شاي"],
+        "english": ["tea"],
+        "example_sentences": [
+          {
+            "hebrew": "אני מעדיף תה על פני קפה.",
+            "translation_english": "I prefer tea over coffee.",
+            "translation_arabic": "أفضل الشاي على القهوة.",
+            "word_to_highlight": "תה"
+          },
+          {
+            "hebrew": "התה מוכן.",
+            "translation_english": "The tea is ready.",
+            "translation_arabic": "الشاي جاهز.",
+            "word_to_highlight": "התה"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-mitz-066",
+    "hebrew": "מיץ",
+    "categories": ["Noun", "Food", "Drink", "Liquid"],
+    "pronunciation_text": "mitz",
+    "audio_url": "/audio/mitz.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "מיץ"
+      },
+      {
+        "type": "plural-male",
+        "text": "מיצים"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["عصير"],
+        "english": ["juice"],
+        "example_sentences": [
+          {
+            "hebrew": "אני רוצה כוס מיץ תפוזים.",
+            "translation_english": "I want a glass of orange juice.",
+            "translation_arabic": "أريد كوب عصير برتقال.",
+            "word_to_highlight": "מיץ"
+          },
+          {
+            "hebrew": "יש סוגים שונים של מיצים.",
+            "translation_english": "There are different types of juices.",
+            "translation_arabic": "يوجد أنواع مختلفة من العصائر.",
+            "word_to_highlight": "מיצים"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-pri-067",
+    "hebrew": "פרי",
+    "categories": ["Noun", "Food"],
+    "pronunciation_text": "pri",
+    "audio_url": "/audio/pri.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "פרי"
+      },
+      {
+        "type": "plural-male",
+        "text": "פירות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["فاكهة"],
+        "english": ["fruit"],
+        "example_sentences": [
+          {
+            "hebrew": "אני אוהב לאכול פרי.",
+            "translation_english": "I like to eat fruit.",
+            "translation_arabic": "أنا أحب أكل الفاكهة.",
+            "word_to_highlight": "פרי"
+          },
+          {
+            "hebrew": "יש הרבה פירות טריים בשוק.",
+            "translation_english": "There are many fresh fruits in the market.",
+            "translation_arabic": "يوجد الكثير من الفواكه الطازجة في السوق.",
+            "word_to_highlight": "פירות"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-yerek-068",
+    "hebrew": "ירק",
+    "categories": ["Noun", "Food"],
+    "pronunciation_text": "yerek",
+    "audio_url": "/audio/yerek.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "ירק"
+      },
+      {
+        "type": "plural-male",
+        "text": "ירקות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["خضار (مفرد)"],
+        "english": ["vegetable"],
+        "example_sentences": [
+          {
+            "hebrew": "ירק זה בריא.",
+            "translation_english": "This vegetable is healthy.",
+            "translation_arabic": "هذه الخضار صحية.",
+            "word_to_highlight": "ירק"
+          },
+          {
+            "hebrew": "אני קונה ירקות בשוק.",
+            "translation_english": "I buy vegetables at the market.",
+            "translation_arabic": "أشتري الخضروات من السوق.",
+            "word_to_highlight": "ירקות"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-yom-069",
+    "hebrew": "יום",
+    "categories": ["Noun", "Time"],
+    "pronunciation_text": "yom",
+    "audio_url": "/audio/yom.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "יום"
+      },
+      {
+        "type": "plural-male",
+        "text": "ימים"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["يوم"],
+        "english": ["day"],
+        "example_sentences": [
+          {
+            "hebrew": "זה היה יום טוב.",
+            "translation_english": "It was a good day.",
+            "translation_arabic": "لقد كان يوماً جيداً.",
+            "word_to_highlight": "יום"
+          },
+          {
+            "hebrew": "הוא עובד שישה ימים בשבוע.",
+            "translation_english": "He works six days a week.",
+            "translation_arabic": "هو يعمل ستة أيام في الأسبوع.",
+            "word_to_highlight": "ימים"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-layla-070",
+    "hebrew": "לילה",
+    "categories": ["Noun", "Time"],
+    "pronunciation_text": "layla",
+    "audio_url": "/audio/layla.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "לילה"
+      },
+      {
+        "type": "plural-male",
+        "text": "לילות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["ليل", "ليلة"],
+        "english": ["night"],
+        "example_sentences": [
+          {
+            "hebrew": "לילה טוב!",
+            "translation_english": "Good night!",
+            "translation_arabic": "ليلة سعيدة!",
+            "word_to_highlight": "לילה"
+          },
+          {
+            "hebrew": "אני לא ישן טוב בלילות.",
+            "translation_english": "I don't sleep well at nights.",
+            "translation_arabic": "لا أنام جيداً في الليالي.",
+            "word_to_highlight": "בלילות"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-shavua-071",
+    "hebrew": "שבוע",
+    "categories": ["Noun", "Time"],
+    "pronunciation_text": "shavua",
+    "audio_url": "/audio/shavua.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "שבוע"
+      },
+      {
+        "type": "plural-male",
+        "text": "שבועות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["أسبوع"],
+        "english": ["week"],
+        "example_sentences": [
+          {
+            "hebrew": "בשבוע הבא אני נוסע.",
+            "translation_english": "Next week I am traveling.",
+            "translation_arabic": "في الأسبوع القادم سأسافر.",
+            "word_to_highlight": "בשבוע"
+          },
+          {
+            "hebrew": "החופשה נמשכה שלושה שבועות.",
+            "translation_english": "The vacation lasted three weeks.",
+            "translation_arabic": "العطلة استمرت ثلاثة أسابيع.",
+            "word_to_highlight": "שבועות"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-khodesh-072",
+    "hebrew": "חודש",
+    "categories": ["Noun", "Time"],
+    "pronunciation_text": "khodesh",
+    "audio_url": "/audio/khodesh.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "חודש"
+      },
+      {
+        "type": "plural-male",
+        "text": "חודשים"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["شهر"],
+        "english": ["month"],
+        "example_sentences": [
+          {
+            "hebrew": "זה חודש קשה.",
+            "translation_english": "This is a difficult month.",
+            "translation_arabic": "هذا شهر صعب.",
+            "word_to_highlight": "חודש"
+          },
+          {
+            "hebrew": "אני גר כאן כבר כמה חודשים.",
+            "translation_english": "I have been living here for several months already.",
+            "translation_arabic": "أنا أعيش هنا منذ عدة أشهر بالفعل.",
+            "word_to_highlight": "חודשים"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-shana-073",
+    "hebrew": "שנה",
+    "categories": ["Noun", "Time"],
+    "pronunciation_text": "shana",
+    "audio_url": "/audio/shana.mp3",
+    "forms": [
+      {
+        "type": "singular-female",
+        "text": "שנה"
+      },
+      {
+        "type": "plural-female",
+        "text": "שנים"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["سنة", "عام"],
+        "english": ["year"],
+        "example_sentences": [
+          {
+            "hebrew": "הייתה לי שנה מצוינת.",
+            "translation_english": "I had an excellent year.",
+            "translation_arabic": "لقد كان لدي عام ممتاز.",
+            "word_to_highlight": "שנה"
+          },
+          {
+            "hebrew": "עברו שלוש שנים מאז.",
+            "translation_english": "Three years have passed since then.",
+            "translation_arabic": "مرت ثلاث سنوات منذ ذلك الحين.",
+            "word_to_highlight": "שנים"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-sha'a-074",
+    "hebrew": "שעה",
+    "categories": ["Noun", "Time"],
+    "pronunciation_text": "sha'a",
+    "audio_url": "/audio/sha'a.mp3",
+    "forms": [
+      {
+        "type": "singular-female",
+        "text": "שעה"
+      },
+      {
+        "type": "plural-female",
+        "text": "שעות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["ساعة"],
+        "english": ["hour", "time (of day)"],
+        "example_sentences": [
+          {
+            "hebrew": "השיעור נמשך שעה אחת.",
+            "translation_english": "The lesson lasted one hour.",
+            "translation_arabic": "استمر الدرس ساعة واحدة.",
+            "word_to_highlight": "שעה"
+          },
+          {
+            "hebrew": "חיכיתי שעות רבות.",
+            "translation_english": "I waited for many hours.",
+            "translation_arabic": "انتظرت لساعات عديدة.",
+            "word_to_highlight": "שעות"
+          },
+          {
+            "hebrew": "מה השעה עכשיו?",
+            "translation_english": "What time is it now?",
+            "translation_arabic": "كم الساعة الآن؟",
+            "word_to_highlight": "השעה"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-lir'ot-075",
+    "hebrew": "לראות",
+    "categories": ["Verb", "Senses"],
+    "pronunciation_text": "lir'ot",
+    "audio_url": "/audio/lir'ot.mp3",
+    "forms": [
+      {
+        "type": "infinitive",
+        "text": "לראות"
+      },
+      {
+        "type": "present-singular-male",
+        "text": "רואה"
+      },
+      {
+        "type": "present-singular-female",
+        "text": "רואה"
+      },
+      {
+        "type": "present-plural-male",
+        "text": "רואים"
+      },
+      {
+        "type": "present-plural-female",
+        "text": "רואות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["يرى", "يشاهد"],
+        "english": ["to see", "to watch"],
+        "example_sentences": [
+          {
+            "hebrew": "אני רוצה לראות סרט.",
+            "translation_english": "I want to see a movie.",
+            "translation_arabic": "أريد مشاهدة فيلم.",
+            "word_to_highlight": "לראות"
+          },
+          {
+            "hebrew": "הוא רואה הכל.",
+            "translation_english": "He sees everything.",
+            "translation_arabic": "هو يرى كل شيء.",
+            "word_to_highlight": "רואה"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-lishmoa-076",
+    "hebrew": "לשמוע",
+    "categories": ["Verb", "Senses"],
+    "pronunciation_text": "lishmoa",
+    "audio_url": "/audio/lishmoa.mp3",
+    "forms": [
+      {
+        "type": "infinitive",
+        "text": "לשמוע"
+      },
+      {
+        "type": "present-singular-male",
+        "text": "שומע"
+      },
+      {
+        "type": "present-singular-female",
+        "text": "שומעת"
+      },
+      {
+        "type": "present-plural-male",
+        "text": "שומעים"
+      },
+      {
+        "type": "present-plural-female",
+        "text": "שומעות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["يسمع"],
+        "english": ["to hear", "to listen"],
+        "example_sentences": [
+          {
+            "hebrew": "אני לא שומע טוב.",
+            "translation_english": "I don't hear well.",
+            "translation_arabic": "لا أسمع جيداً.",
+            "word_to_highlight": "שומע"
+          },
+          {
+            "hebrew": "היא שומעת מוזיקה עכשיו.",
+            "translation_english": "She is listening to music now.",
+            "translation_arabic": "هي تستمع إلى الموسيقى الآن.",
+            "word_to_highlight": "שומעת"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-likro-077",
+    "hebrew": "לקרוא",
+    "categories": ["Verb", "Reading"],
+    "pronunciation_text": "likro",
+    "audio_url": "/audio/likro.mp3",
+    "forms": [
+      {
+        "type": "infinitive",
+        "text": "לקרוא"
+      },
+      {
+        "type": "present-singular-male",
+        "text": "קורא"
+      },
+      {
+        "type": "present-singular-female",
+        "text": "קוראת"
+      },
+      {
+        "type": "present-plural-male",
+        "text": "קוראים"
+      },
+      {
+        "type": "present-plural-female",
+        "text": "קוראות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["يقرأ", "ينادي", "يدعو"],
+        "english": ["to read", "to call", "to invite"],
+        "example_sentences": [
+          {
+            "hebrew": "אני אוהב לקרוא ספרים.",
+            "translation_english": "I like to read books.",
+            "translation_arabic": "أحب قراءة الكتب.",
+            "word_to_highlight": "לקרוא"
+          },
+          {
+            "hebrew": "הוא קורא לי בשמי.",
+            "translation_english": "He calls me by my name.",
+            "translation_arabic": "هو يناديني باسمي.",
+            "word_to_highlight": "קורא"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-likhtov-078",
+    "hebrew": "לכתוב",
+    "categories": ["Verb", "Writing"],
+    "pronunciation_text": "likhtov",
+    "audio_url": "/audio/likhtov.mp3",
+    "forms": [
+      {
+        "type": "infinitive",
+        "text": "לכתוב"
+      },
+      {
+        "type": "present-singular-male",
+        "text": "כותב"
+      },
+      {
+        "type": "present-singular-female",
+        "text": "כותבת"
+      },
+      {
+        "type": "present-plural-male",
+        "text": "כותבים"
+      },
+      {
+        "type": "present-plural-female",
+        "text": "כותבות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["يكتب"],
+        "english": ["to write"],
+        "example_sentences": [
+          {
+            "hebrew": "אני צריך לכתוב מכתב.",
+            "translation_english": "I need to write a letter.",
+            "translation_arabic": "أحتاج إلى كتابة رسالة.",
+            "word_to_highlight": "לכתוב"
+          },
+          {
+            "hebrew": "היא כותבת סיפור.",
+            "translation_english": "She is writing a story.",
+            "translation_arabic": "هي تكتب قصة.",
+            "word_to_highlight": "כותבת"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-lavo-079",
+    "hebrew": "לבוא",
+    "categories": ["Verb", "Movement"],
+    "pronunciation_text": "lavo",
+    "audio_url": "/audio/lavo.mp3",
+    "forms": [
+      {
+        "type": "infinitive",
+        "text": "לבוא"
+      },
+      {
+        "type": "present-singular-male",
+        "text": "בא"
+      },
+      {
+        "type": "present-singular-female",
+        "text": "באה"
+      },
+      {
+        "type": "present-plural-male",
+        "text": "באים"
+      },
+      {
+        "type": "present-plural-female",
+        "text": "באות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["يأتي", "يجيء"],
+        "english": ["to come"],
+        "example_sentences": [
+          {
+            "hebrew": "מתי אתה בא?",
+            "translation_english": "When are you (m.sg) coming?",
+            "translation_arabic": "متى أنتَ قادم؟",
+            "word_to_highlight": "בא"
+          },
+          {
+            "hebrew": "הם באים מחר.",
+            "translation_english": "They are coming tomorrow.",
+            "translation_arabic": "هم قادمون غداً.",
+            "word_to_highlight": "באים"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-la'asot-080",
+    "hebrew": "לעשות",
+    "categories": ["Verb", "Action"],
+    "pronunciation_text": "la'asot",
+    "audio_url": "/audio/la'asot.mp3",
+    "forms": [
+      {
+        "type": "infinitive",
+        "text": "לעשות"
+      },
+      {
+        "type": "present-singular-male",
+        "text": "עושה"
+      },
+      {
+        "type": "present-singular-female",
+        "text": "עושה"
+      },
+      {
+        "type": "present-plural-male",
+        "text": "עושים"
+      },
+      {
+        "type": "present-plural-female",
+        "text": "עושות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["يعمل", "يفعل"],
+        "english": ["to do", "to make"],
+        "example_sentences": [
+          {
+            "hebrew": "מה אתה עושה?",
+            "translation_english": "What are you (m.sg) doing?",
+            "translation_arabic": "ماذا تفعل أنتَ؟",
+            "word_to_highlight": "עושה"
+          },
+          {
+            "hebrew": "היא עושה עוגה.",
+            "translation_english": "She is making a cake.",
+            "translation_arabic": "هي تصنع كعكة.",
+            "word_to_highlight": "עושה"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-lirtzot-081",
+    "hebrew": "לרצות",
+    "categories": ["Verb", "Desire"],
+    "pronunciation_text": "lirtzot",
+    "audio_url": "/audio/lirtzot.mp3",
+    "forms": [
+      {
+        "type": "infinitive",
+        "text": "לרצות"
+      },
+      {
+        "type": "present-singular-male",
+        "text": "רוצה"
+      },
+      {
+        "type": "present-singular-female",
+        "text": "רוצה"
+      },
+      {
+        "type": "present-plural-male",
+        "text": "רוצים"
+      },
+      {
+        "type": "present-plural-female",
+        "text": "רוצות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["يريد"],
+        "english": ["to want"],
+        "example_sentences": [
+          {
+            "hebrew": "אני רוצה מים.",
+            "translation_english": "I want water.",
+            "translation_arabic": "أنا أريد ماء.",
+            "word_to_highlight": "רוצה"
+          },
+          {
+            "hebrew": "הם רוצים ללכת הביתה.",
+            "translation_english": "They want to go home.",
+            "translation_arabic": "هم يريدون الذهاب إلى البيت.",
+            "word_to_highlight": "רוצים"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-le'ehov-082",
+    "hebrew": "לאהוב",
+    "categories": ["Verb", "Emotion"],
+    "pronunciation_text": "le'ehov",
+    "audio_url": "/audio/le'ehov.mp3",
+    "forms": [
+      {
+        "type": "infinitive",
+        "text": "לאהוב"
+      },
+      {
+        "type": "present-singular-male",
+        "text": "אוהב"
+      },
+      {
+        "type": "present-singular-female",
+        "text": "אוהבת"
+      },
+      {
+        "type": "present-plural-male",
+        "text": "אוהבים"
+      },
+      {
+        "type": "present-plural-female",
+        "text": "אוהבות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["يحب"],
+        "english": ["to love", "to like"],
+        "example_sentences": [
+          {
+            "hebrew": "אני אוהב אותך.",
+            "translation_english": "I love you.",
+            "translation_arabic": "أنا أحبك.",
+            "word_to_highlight": "אוהב"
+          },
+          {
+            "hebrew": "היא אוהבת לקרוא.",
+            "translation_english": "She likes to read.",
+            "translation_arabic": "هي تحب القراءة.",
+            "word_to_highlight": "אוהבת"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-lagur-083",
+    "hebrew": "לגור",
+    "categories": ["Verb", "Place"],
+    "pronunciation_text": "lagur",
+    "audio_url": "/audio/lagur.mp3",
+    "forms": [
+      {
+        "type": "infinitive",
+        "text": "לגור"
+      },
+      {
+        "type": "present-singular-male",
+        "text": "גר"
+      },
+      {
+        "type": "present-singular-female",
+        "text": "גרה"
+      },
+      {
+        "type": "present-plural-male",
+        "text": "גרים"
+      },
+      {
+        "type": "present-plural-female",
+        "text": "גרות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["يسكن", "يعيش"],
+        "english": ["to live", "to reside"],
+        "example_sentences": [
+          {
+            "hebrew": "איפה אתה גר?",
+            "translation_english": "Where do you (m.sg) live?",
+            "translation_arabic": "أين تسكن أنتَ؟",
+            "word_to_highlight": "גר"
+          },
+          {
+            "hebrew": "הם גרים בישראל.",
+            "translation_english": "They live in Israel.",
+            "translation_arabic": "هم يسكنون في إسرائيل.",
+            "word_to_highlight": "גרים"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-yafe-084",
+    "hebrew": "יפה",
+    "categories": ["Adjective", "Appearance"],
+    "pronunciation_text": "yafe",
+    "audio_url": "/audio/yafe.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "יפה"
+      },
+      {
+        "type": "singular-female",
+        "text": "יפה"
+      },
+      {
+        "type": "plural-male",
+        "text": "יפים"
+      },
+      {
+        "type": "plural-female",
+        "text": "יפות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["جميل", "حلو"],
+        "english": ["beautiful", "nice", "pretty"],
+        "example_sentences": [
+          {
+            "hebrew": "זה בית יפה.",
+            "translation_english": "This is a beautiful house.",
+            "translation_arabic": "هذا بيت جميل.",
+            "word_to_highlight": "יפה"
+          },
+          {
+            "hebrew": "היא אישה יפה.",
+            "translation_english": "She is a beautiful woman.",
+            "translation_arabic": "إنها امرأة جميلة.",
+            "word_to_highlight": "יפה"
+          },
+          {
+            "hebrew": "הם אנשים יפים.",
+            "translation_english": "They are beautiful people.",
+            "translation_arabic": "إنهم أناس جميلون.",
+            "word_to_highlight": "יפים"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-khadash-085",
+    "hebrew": "חדש",
+    "categories": ["Adjective", "Quality"],
+    "pronunciation_text": "khadash",
+    "audio_url": "/audio/khadash.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "חדש"
+      },
+      {
+        "type": "singular-female",
+        "text": "חדשה"
+      },
+      {
+        "type": "plural-male",
+        "text": "חדשים"
+      },
+      {
+        "type": "plural-female",
+        "text": "חדשות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["جديد"],
+        "english": ["new"],
+        "example_sentences": [
+          {
+            "hebrew": "יש לי טלפון חדש.",
+            "translation_english": "I have a new phone.",
+            "translation_arabic": "لدي هاتف جديد.",
+            "word_to_highlight": "חדש"
+          },
+          {
+            "hebrew": "קניתי מכונית חדשה.",
+            "translation_english": "I bought a new car.",
+            "translation_arabic": "اشتريت سيارة جديدة.",
+            "word_to_highlight": "חדשה"
+          },
+          {
+            "hebrew": "אלה ספרים חדשים.",
+            "translation_english": "These are new books.",
+            "translation_arabic": "هذه كتب جديدة.",
+            "word_to_highlight": "חדשים"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-yashan-086",
+    "hebrew": "ישן",
+    "categories": ["Adjective", "Quality"],
+    "pronunciation_text": "yashan",
+    "audio_url": "/audio/yashan.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "ישן"
+      },
+      {
+        "type": "singular-female",
+        "text": "ישנה"
+      },
+      {
+        "type": "plural-male",
+        "text": "ישנים"
+      },
+      {
+        "type": "plural-female",
+        "text": "ישנות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["قديم"],
+        "english": ["old"],
+        "example_sentences": [
+          {
+            "hebrew": "הבית הזה ישן.",
+            "translation_english": "This house is old.",
+            "translation_arabic": "هذا البيت قديم.",
+            "word_to_highlight": "ישן"
+          },
+          {
+            "hebrew": "זו מכונית ישנה.",
+            "translation_english": "This is an old car.",
+            "translation_arabic": "هذه سيارة قديمة.",
+            "word_to_highlight": "ישנה"
+          },
+          {
+            "hebrew": "אלה בגדים ישנים.",
+            "translation_english": "These are old clothes.",
+            "translation_arabic": "هذه ملابس قديمة.",
+            "word_to_highlight": "ישנים"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-sameakh-087",
+    "hebrew": "שמח",
+    "categories": ["Adjective", "Emotion"],
+    "pronunciation_text": "sameakh",
+    "audio_url": "/audio/sameakh.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "שמח"
+      },
+      {
+        "type": "singular-female",
+        "text": "שמחה"
+      },
+      {
+        "type": "plural-male",
+        "text": "שמחים"
+      },
+      {
+        "type": "plural-female",
+        "text": "שמחות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["سعيد", "فرحان"],
+        "english": ["happy", "glad"],
+        "example_sentences": [
+          {
+            "hebrew": "אני שמח היום.",
+            "translation_english": "I am happy today.",
+            "translation_arabic": "أنا سعيد اليوم.",
+            "word_to_highlight": "שמח"
+          },
+          {
+            "hebrew": "היא שמחה מאוד.",
+            "translation_english": "She is very happy.",
+            "translation_arabic": "هي سعيدة جداً.",
+            "word_to_highlight": "שמחה"
+          },
+          {
+            "hebrew": "הילדים שמחים לשחק.",
+            "translation_english": "The children are happy to play.",
+            "translation_arabic": "الأطفال سعداء باللعب.",
+            "word_to_highlight": "שמחים"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-atzuv-088",
+    "hebrew": "עצוב",
+    "categories": ["Adjective", "Emotion"],
+    "pronunciation_text": "atzuv",
+    "audio_url": "/audio/atzuv.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "עצוב"
+      },
+      {
+        "type": "singular-female",
+        "text": "עצובה"
+      },
+      {
+        "type": "plural-male",
+        "text": "עצובים"
+      },
+      {
+        "type": "plural-female",
+        "text": "עצובות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["حزين"],
+        "english": ["sad"],
+        "example_sentences": [
+          {
+            "hebrew": "הוא נראה עצוב.",
+            "translation_english": "He looks sad.",
+            "translation_arabic": "يبدو حزيناً.",
+            "word_to_highlight": "עצוב"
+          },
+          {
+            "hebrew": "היא עצובה מאוד.",
+            "translation_english": "She is very sad.",
+            "translation_arabic": "هي حزينة جداً.",
+            "word_to_highlight": "עצובה"
+          },
+          {
+            "hebrew": "הם היו עצובים לשמוע את החדשות.",
+            "translation_english": "They were sad to hear the news.",
+            "translation_arabic": "كانوا حزينين لسماع الأخبار.",
+            "word_to_highlight": "עצובים"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-kar-089",
+    "hebrew": "קר",
+    "categories": ["Adjective", "Weather"],
+    "pronunciation_text": "kar",
+    "audio_url": "/audio/kar.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "קר"
+      },
+      {
+        "type": "singular-female",
+        "text": "קרה"
+      },
+      {
+        "type": "plural-male",
+        "text": "קרים"
+      },
+      {
+        "type": "plural-female",
+        "text": "קרות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["بارد"],
+        "english": ["cold"],
+        "example_sentences": [
+          {
+            "hebrew": "היום קר.",
+            "translation_english": "It is cold today.",
+            "translation_arabic": "اليوم بارد.",
+            "word_to_highlight": "קר"
+          },
+          {
+            "hebrew": "המים קרים.",
+            "translation_english": "The water is cold.",
+            "translation_arabic": "الماء بارد.",
+            "word_to_highlight": "קרים"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-kham-090",
+    "hebrew": "חם",
+    "categories": ["Adjective", "Weather"],
+    "pronunciation_text": "kham",
+    "audio_url": "/audio/kham.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "חם"
+      },
+      {
+        "type": "singular-female",
+        "text": "חמה"
+      },
+      {
+        "type": "plural-male",
+        "text": "חמים"
+      },
+      {
+        "type": "plural-female",
+        "text": "חמות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["حار", "ساخن"],
+        "english": ["hot", "warm"],
+        "example_sentences": [
+          {
+            "hebrew": "היום חם מאוד.",
+            "translation_english": "It is very hot today.",
+            "translation_arabic": "اليوم حار جداً.",
+            "word_to_highlight": "חם"
+          },
+          {
+            "hebrew": "אני שותה תה חם.",
+            "translation_english": "I am drinking hot tea.",
+            "translation_arabic": "أنا أشرب شاياً ساخناً.",
+            "word_to_highlight": "חם"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-kan-091",
+    "hebrew": "כאן",
+    "categories": ["Adverb", "Place"],
+    "pronunciation_text": "kan",
+    "audio_url": "/audio/kan.mp3",
+    "forms": [
+      {
+        "type": "standard",
+        "text": "כאן"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["هنا"],
+        "english": ["here"],
+        "example_sentences": [
+          {
+            "hebrew": "אני גר כאן.",
+            "translation_english": "I live here.",
+            "translation_arabic": "أنا أسكن هنا.",
+            "word_to_highlight": "כאן"
+          },
+          {
+            "hebrew": "שב כאן לידי.",
+            "translation_english": "Sit here next to me.",
+            "translation_arabic": "اجلس هنا بجانبي.",
+            "word_to_highlight": "כאן"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-sham-092",
+    "hebrew": "שם",
+    "categories": ["Adverb", "Place"],
+    "pronunciation_text": "sham",
+    "audio_url": "/audio/sham.mp3",
+    "forms": [
+      {
+        "type": "standard",
+        "text": "שם"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["هناك"],
+        "english": ["there"],
+        "example_sentences": [
+          {
+            "hebrew": "הספר שם על השולחן.",
+            "translation_english": "The book is there on the table.",
+            "translation_arabic": "الكتاب هناك على الطاولة.",
+            "word_to_highlight": "שם"
+          },
+          {
+            "hebrew": "אנחנו נוסעים לשם מחר.",
+            "translation_english": "We are traveling there tomorrow.",
+            "translation_arabic": "نحن مسافرون إلى هناك غداً.",
+            "word_to_highlight": "לשם"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-akhshav-093",
+    "hebrew": "עכשיו",
+    "categories": ["Adverb", "Time"],
+    "pronunciation_text": "akhshav",
+    "audio_url": "/audio/akhshav.mp3",
+    "forms": [
+      {
+        "type": "standard",
+        "text": "עכשיו"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["الآن"],
+        "english": ["now"],
+        "example_sentences": [
+          {
+            "hebrew": "אני צריך ללכת עכשיו.",
+            "translation_english": "I need to go now.",
+            "translation_arabic": "أحتاج الذهاب الآن.",
+            "word_to_highlight": "עכשיו"
+          },
+          {
+            "hebrew": "מה אתה עושה עכשיו?",
+            "translation_english": "What are you (m.sg) doing now?",
+            "translation_arabic": "ماذا تفعل الآن؟",
+            "word_to_highlight": "עכשיו"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-makhar-094",
+    "hebrew": "מחר",
+    "categories": ["Adverb", "Time"],
+    "pronunciation_text": "makhar",
+    "audio_url": "/audio/makhar.mp3",
+    "forms": [
+      {
+        "type": "standard",
+        "text": "מחר"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["غداً"],
+        "english": ["tomorrow"],
+        "example_sentences": [
+          {
+            "hebrew": "מחר יום שישי.",
+            "translation_english": "Tomorrow is Friday.",
+            "translation_arabic": "غداً يوم الجمعة.",
+            "word_to_highlight": "מחר"
+          },
+          {
+            "hebrew": "ניפגש מחר.",
+            "translation_english": "We will meet tomorrow.",
+            "translation_arabic": "سنجتمع غداً.",
+            "word_to_highlight": "מחר"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-etmol-095",
+    "hebrew": "אתמול",
+    "categories": ["Adverb", "Time"],
+    "pronunciation_text": "etmol",
+    "audio_url": "/audio/etmol.mp3",
+    "forms": [
+      {
+        "type": "standard",
+        "text": "אתמול"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["أمس"],
+        "english": ["yesterday"],
+        "example_sentences": [
+          {
+            "hebrew": "אתמול היה יום יפה.",
+            "translation_english": "Yesterday was a beautiful day.",
+            "translation_arabic": "كان أمس يوماً جميلاً.",
+            "word_to_highlight": "אתמול"
+          },
+          {
+            "hebrew": "ראיתי אותו אתמול.",
+            "translation_english": "I saw him yesterday.",
+            "translation_arabic": "رأيته أمس.",
+            "word_to_highlight": "אתמול"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-tamid-096",
+    "hebrew": "תמיד",
+    "categories": ["Adverb", "Time"],
+    "pronunciation_text": "tamid",
+    "audio_url": "/audio/tamid.mp3",
+    "forms": [
+      {
+        "type": "standard",
+        "text": "תמיד"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["دائماً"],
+        "english": ["always"],
+        "example_sentences": [
+          {
+            "hebrew": "הוא תמיד שמח.",
+            "translation_english": "He is always happy.",
+            "translation_arabic": "إنه سعيد دائماً.",
+            "word_to_highlight": "תמיד"
+          },
+          {
+            "hebrew": "אני תמיד קורא ספר לפני השינה.",
+            "translation_english": "I always read a book before sleep.",
+            "translation_arabic": "أنا دائماً أقرأ كتاباً قبل النوم.",
+            "word_to_highlight": "תמיד"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-lifamim-097",
+    "hebrew": "לפעמים",
+    "categories": ["Adverb", "Time"],
+    "pronunciation_text": "lifamim",
+    "audio_url": "/audio/lifamim.mp3",
+    "forms": [
+      {
+        "type": "standard",
+        "text": "לפעמים"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["أحياناً"],
+        "english": ["sometimes"],
+        "example_sentences": [
+          {
+            "hebrew": "לפעמים אני הולך לפארק.",
+            "translation_english": "Sometimes I go to the park.",
+            "translation_arabic": "أحياناً أذهب إلى الحديقة.",
+            "word_to_highlight": "לפעמים"
+          },
+          {
+            "hebrew": "היא מבקרת אותי לפעמים.",
+            "translation_english": "She visits me sometimes.",
+            "translation_arabic": "هي تزورني أحياناً.",
+            "word_to_highlight": "לפעמים"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-maher-098",
+    "hebrew": "מהר",
+    "categories": ["Adverb", "Manner"],
+    "pronunciation_text": "maher",
+    "audio_url": "/audio/maher.mp3",
+    "forms": [
+      {
+        "type": "standard",
+        "text": "מהר"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["بسرعة"],
+        "english": ["quickly", "fast"],
+        "example_sentences": [
+          {
+            "hebrew": "לך מהר!",
+            "translation_english": "Go quickly!",
+            "translation_arabic": "اذهب بسرعة!",
+            "word_to_highlight": "מהר"
+          },
+          {
+            "hebrew": "הוא רץ מהר מאוד.",
+            "translation_english": "He runs very fast.",
+            "translation_arabic": "هو يركض بسرعة كبيرة.",
+            "word_to_highlight": "מהר"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-le'at-099",
+    "hebrew": "לאט",
+    "categories": ["Adverb", "Manner"],
+    "pronunciation_text": "le'at",
+    "audio_url": "/audio/le'at.mp3",
+    "forms": [
+      {
+        "type": "standard",
+        "text": "לאט"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["ببطء"],
+        "english": ["slowly"],
+        "example_sentences": [
+          {
+            "hebrew": "דבר לאט בבקשה.",
+            "translation_english": "Speak slowly please.",
+            "translation_arabic": "تكلم ببطء من فضلك.",
+            "word_to_highlight": "לאט"
+          },
+          {
+            "hebrew": "הצב הולך לאט.",
+            "translation_english": "The turtle walks slowly.",
+            "translation_arabic": "السلحفاة تمشي ببطء.",
+            "word_to_highlight": "לאט"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-ma-100",
+    "hebrew": "מה",
+    "categories": ["Question Word"],
+    "pronunciation_text": "ma",
+    "audio_url": "/audio/ma.mp3",
+    "forms": [
+      {
+        "type": "standard",
+        "text": "מה"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["ما", "ماذا"],
+        "english": ["what"],
+        "example_sentences": [
+          {
+            "hebrew": "מה זה?",
+            "translation_english": "What is this?",
+            "translation_arabic": "ما هذا؟",
+            "word_to_highlight": "מה"
+          },
+          {
+            "hebrew": "מה שמך?",
+            "translation_english": "What is your name?",
+            "translation_arabic": "ما اسمك؟",
+            "word_to_highlight": "מה"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-mi-101",
+    "hebrew": "מי",
+    "categories": ["Question Word"],
+    "pronunciation_text": "mi",
+    "audio_url": "/audio/mi.mp3",
+    "forms": [
+      {
+        "type": "standard",
+        "text": "מי"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["من"],
+        "english": ["who"],
+        "example_sentences": [
+          {
+            "hebrew": "מי אתה?",
+            "translation_english": "Who are you (m.sg)?",
+            "translation_arabic": "من أنتَ؟",
+            "word_to_highlight": "מי"
+          },
+          {
+            "hebrew": "מי בא למסיבה?",
+            "translation_english": "Who is coming to the party?",
+            "translation_arabic": "من سيأتي إلى الحفلة؟",
+            "word_to_highlight": "מי"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-eifo-102",
+    "hebrew": "איפה",
+    "categories": ["Question Word"],
+    "pronunciation_text": "eifo",
+    "audio_url": "/audio/eifo.mp3",
+    "forms": [
+      {
+        "type": "standard",
+        "text": "איפה"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["أين"],
+        "english": ["where"],
+        "example_sentences": [
+          {
+            "hebrew": "איפה הבית שלך?",
+            "translation_english": "Where is your house?",
+            "translation_arabic": "أين بيتك؟",
+            "word_to_highlight": "איפה"
+          },
+          {
+            "hebrew": "איפה המפתחות?",
+            "translation_english": "Where are the keys?",
+            "translation_arabic": "أين المفاتيح؟",
+            "word_to_highlight": "איפה"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-matay-103",
+    "hebrew": "מתי",
+    "categories": ["Question Word"],
+    "pronunciation_text": "matay",
+    "audio_url": "/audio/matay.mp3",
+    "forms": [
+      {
+        "type": "standard",
+        "text": "מתי"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["متى"],
+        "english": ["when"],
+        "example_sentences": [
+          {
+            "hebrew": "מתי אתה בא?",
+            "translation_english": "When are you (m.sg) coming?",
+            "translation_arabic": "متى أنتَ قادم؟",
+            "word_to_highlight": "מתי"
+          },
+          {
+            "hebrew": "מתי מתחיל השיעור?",
+            "translation_english": "When does the lesson start?",
+            "translation_arabic": "متى يبدأ الدرس؟",
+            "word_to_highlight": "מתי"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-lama-104",
+    "hebrew": "למה",
+    "categories": ["Question Word"],
+    "pronunciation_text": "lama",
+    "audio_url": "/audio/lama.mp3",
+    "forms": [
+      {
+        "type": "standard",
+        "text": "למה"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["لماذا"],
+        "english": ["why"],
+        "example_sentences": [
+          {
+            "hebrew": "למה אתה עצוב?",
+            "translation_english": "Why are you (m.sg) sad?",
+            "translation_arabic": "لماذا أنتَ حزين؟",
+            "word_to_highlight": "למה"
+          },
+          {
+            "hebrew": "למה היא לא באה?",
+            "translation_english": "Why isn't she coming?",
+            "translation_arabic": "لماذا هي لا تأتي؟",
+            "word_to_highlight": "למה"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-eikh-105",
+    "hebrew": "איך",
+    "categories": ["Question Word"],
+    "pronunciation_text": "eikh",
+    "audio_url": "/audio/eikh.mp3",
+    "forms": [
+      {
+        "type": "standard",
+        "text": "איך"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["كيف"],
+        "english": ["how"],
+        "example_sentences": [
+          {
+            "hebrew": "איך קוראים לך?",
+            "translation_english": "What is your name? (Lit. How do they call you?)",
+            "translation_arabic": "ما اسمك؟",
+            "word_to_highlight": "איך"
+          },
+          {
+            "hebrew": "איך הגעת לכאן?",
+            "translation_english": "How did you (m.sg) get here?",
+            "translation_arabic": "كيف وصلت إلى هنا؟",
+            "word_to_highlight": "איך"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-kama-106",
+    "hebrew": "כמה",
+    "categories": ["Question Word"],
+    "pronunciation_text": "kama",
+    "audio_url": "/audio/kama.mp3",
+    "forms": [
+      {
+        "type": "standard",
+        "text": "כמה"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["كم", "كم عدد"],
+        "english": ["how much", "how many"],
+        "example_sentences": [
+          {
+            "hebrew": "כמה זה עולה?",
+            "translation_english": "How much does this cost?",
+            "translation_arabic": "كم يكلف هذا؟",
+            "word_to_highlight": "כמה"
+          },
+          {
+            "hebrew": "כמה ספרים קנית?",
+            "translation_english": "How many books did you (m.sg) buy?",
+            "translation_arabic": "كم عدد الكتب التي اشتريتها؟",
+            "word_to_highlight": "כמה"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-ekhad-107",
+    "hebrew": "אחד",
+    "categories": ["Number"],
+    "pronunciation_text": "ekhad",
+    "audio_url": "/audio/ekhad.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "אחד"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["واحد"],
+        "english": ["one (m)"],
+        "example_sentences": [
+          {
+            "hebrew": "יש לי אח אחד.",
+            "translation_english": "I have one brother.",
+            "translation_arabic": "لدي أخ واحد.",
+            "word_to_highlight": "אחד"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-akhat-108",
+    "hebrew": "אחת",
+    "categories": ["Number"],
+    "pronunciation_text": "akhat",
+    "audio_url": "/audio/akhat.mp3",
+    "forms": [
+      {
+        "type": "singular-female",
+        "text": "אחת"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["واحدة"],
+        "english": ["one (f)"],
+        "example_sentences": [
+          {
+            "hebrew": "יש לי אחות אחת.",
+            "translation_english": "I have one sister.",
+            "translation_arabic": "لدي أخت واحدة.",
+            "word_to_highlight": "אחת"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-shnayim-109",
+    "hebrew": "שניים",
+    "categories": ["Number"],
+    "pronunciation_text": "shnayim",
+    "audio_url": "/audio/shnayim.mp3",
+    "forms": [
+      {
+        "type": "plural-male",
+        "text": "שניים"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["اثنين"],
+        "english": ["two (m)"],
+        "example_sentences": [
+          {
+            "hebrew": "יש לי שני אחים.",
+            "translation_english": "I have two brothers.",
+            "translation_arabic": "لدي أخوان.",
+            "word_to_highlight": "שני"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-shtayim-110",
+    "hebrew": "שתיים",
+    "categories": ["Number"],
+    "pronunciation_text": "shtayim",
+    "audio_url": "/audio/shtayim.mp3",
+    "forms": [
+      {
+        "type": "plural-female",
+        "text": "שתיים"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["اثنتين"],
+        "english": ["two (f)"],
+        "example_sentences": [
+          {
+            "hebrew": "יש לי שתי אחיות.",
+            "translation_english": "I have two sisters.",
+            "translation_arabic": "لدي أختان.",
+            "word_to_highlight": "שתי"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-shlosha-111",
+    "hebrew": "שלושה",
+    "categories": ["Number"],
+    "pronunciation_text": "shlosha",
+    "audio_url": "/audio/shlosha.mp3",
+    "forms": [
+      {
+        "type": "plural-male",
+        "text": "שלושה"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["ثلاثة"],
+        "english": ["three (m)"],
+        "example_sentences": [
+          {
+            "hebrew": "יש לי שלושה ספרים.",
+            "translation_english": "I have three books.",
+            "translation_arabic": "لدي ثلاثة كتب.",
+            "word_to_highlight": "שלושה"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-shalosh-112",
+    "hebrew": "שלוש",
+    "categories": ["Number"],
+    "pronunciation_text": "shalosh",
+    "audio_url": "/audio/shalosh.mp3",
+    "forms": [
+      {
+        "type": "plural-female",
+        "text": "שלוש"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["ثلاث"],
+        "english": ["three (f)"],
+        "example_sentences": [
+          {
+            "hebrew": "יש לי שלוש מכוניות.",
+            "translation_english": "I have three cars.",
+            "translation_arabic": "لدي ثلاث سيارات.",
+            "word_to_highlight": "שלוש"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-yom-rishon-113",
+    "hebrew": "יום ראשון",
+    "categories": ["Noun", "Time", "Days of the Week"],
+    "pronunciation_text": "yom rishon",
+    "audio_url": "/audio/yom_rishon.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "יום ראשון"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["يوم الأحد"],
+        "english": ["Sunday"],
+        "example_sentences": [
+          {
+            "hebrew": "העבודה מתחילה ביום ראשון.",
+            "translation_english": "Work starts on Sunday.",
+            "translation_arabic": "يبدأ العمل يوم الأحد.",
+            "word_to_highlight": "יום ראשון"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-yom-sheni-114",
+    "hebrew": "יום שני",
+    "categories": ["Noun", "Time", "Days of the Week"],
+    "pronunciation_text": "yom sheni",
+    "audio_url": "/audio/yom_sheni.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "יום שני"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["يوم الاثنين"],
+        "english": ["Monday"],
+        "example_sentences": [
+          {
+            "hebrew": "יש לי פגישה ביום שני.",
+            "translation_english": "I have a meeting on Monday.",
+            "translation_arabic": "لدي اجتماع يوم الاثنين.",
+            "word_to_highlight": "יום שני"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-yom-shlishi-115",
+    "hebrew": "יום שלישי",
+    "categories": ["Noun", "Time", "Days of the Week"],
+    "pronunciation_text": "yom shlishi",
+    "audio_url": "/audio/yom_shlishi.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "יום שלישי"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["يوم الثلاثاء"],
+        "english": ["Tuesday"],
+        "example_sentences": [
+          {
+            "hebrew": "יום שלישי הוא יום חופש.",
+            "translation_english": "Tuesday is a day off.",
+            "translation_arabic": "يوم الثلاثاء هو يوم عطلة.",
+            "word_to_highlight": "יום שלישי"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-yom-revi'i-116",
+    "hebrew": "יום רביעי",
+    "categories": ["Noun", "Time", "Days of the Week"],
+    "pronunciation_text": "yom revi'i",
+    "audio_url": "/audio/yom_revi'i.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "יום רביעי"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["يوم الأربعاء"],
+        "english": ["Wednesday"],
+        "example_sentences": [
+          {
+            "hebrew": "השיעור הוא ביום רביעי.",
+            "translation_english": "The lesson is on Wednesday.",
+            "translation_arabic": "الدرس يوم الأربعاء.",
+            "word_to_highlight": "יום רביעי"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-yom-khamishi-117",
+    "hebrew": "יום חמישי",
+    "categories": ["Noun", "Time", "Days of the Week"],
+    "pronunciation_text": "yom khamishi",
+    "audio_url": "/audio/yom_khamishi.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "יום חמישי"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["يوم الخميس"],
+        "english": ["Thursday"],
+        "example_sentences": [
+          {
+            "hebrew": "אני עובד עד יום חמישי.",
+            "translation_english": "I work until Thursday.",
+            "translation_arabic": "أنا أعمل حتى يوم الخميس.",
+            "word_to_highlight": "יום חמישי"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-yom-shishi-118",
+    "hebrew": "יום שישי",
+    "categories": ["Noun", "Time", "Days of the Week"],
+    "pronunciation_text": "yom shishi",
+    "audio_url": "/audio/yom_shishi.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "יום שישי"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["يوم الجمعة"],
+        "english": ["Friday"],
+        "example_sentences": [
+          {
+            "hebrew": "יש לנו ארוחת ערב ביום שישי.",
+            "translation_english": "We have dinner on Friday.",
+            "translation_arabic": "لدينا عشاء يوم الجمعة.",
+            "word_to_highlight": "יום שישי"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-shabbat-119",
+    "hebrew": "שבת",
+    "categories": ["Noun", "Time", "Days of the Week", "Culture"],
+    "pronunciation_text": "shabbat",
+    "audio_url": "/audio/shabbat.mp3",
+    "forms": [
+      {
+        "type": "singular-female",
+        "text": "שבת"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["سبت"],
+        "english": ["Saturday", "Sabbath"],
+        "example_sentences": [
+          {
+            "hebrew": "בשבת אנחנו לא עובדים.",
+            "translation_english": "On Saturday we don't work.",
+            "translation_arabic": "يوم السبت لا نعمل.",
+            "word_to_highlight": "בשבת"
+          },
+          {
+            "hebrew": "שבת שלום!",
+            "translation_english": "Shabbat Shalom! (Peaceful Sabbath)",
+            "translation_arabic": "سبت سلام!",
+            "word_to_highlight": "שבת"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-boker-120",
+    "hebrew": "בוקר",
+    "categories": ["Noun", "Time"],
+    "pronunciation_text": "boker",
+    "audio_url": "/audio/boker.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "בוקר"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["صباح"],
+        "english": ["morning"],
+        "example_sentences": [
+          {
+            "hebrew": "בוקר טוב!",
+            "translation_english": "Good morning!",
+            "translation_arabic": "صباح الخير!",
+            "word_to_highlight": "בוקר"
+          },
+          {
+            "hebrew": "אני שותה קפה בבוקר.",
+            "translation_english": "I drink coffee in the morning.",
+            "translation_arabic": "أشرب القهوة في الصباح.",
+            "word_to_highlight": "בבוקר"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-tsohorayim-121",
+    "hebrew": "צהריים",
+    "categories": ["Noun", "Time"],
+    "pronunciation_text": "tsohorayim",
+    "audio_url": "/audio/tsohorayim.mp3",
+    "forms": [
+      {
+        "type": "plural-male",
+        "text": "צהריים"
+      }
+    ],
+    "note": "Grammatically dual/plural",
+    "meanings": [
+      {
+        "arabic": ["ظهر"],
+        "english": ["noon", "afternoon"],
+        "example_sentences": [
+          {
+            "hebrew": "אני אוכל ארוחת צהריים.",
+            "translation_english": "I am eating lunch.",
+            "translation_arabic": "أنا آكل وجبة الغداء.",
+            "word_to_highlight": "צהריים"
+          },
+          {
+            "hebrew": "ניפגש בצהריים.",
+            "translation_english": "We will meet at noon/in the afternoon.",
+            "translation_arabic": "سنجتمع ظهراً / بعد الظهر.",
+            "word_to_highlight": "בצהריים"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-erev-122",
+    "hebrew": "ערב",
+    "categories": ["Noun", "Time"],
+    "pronunciation_text": "erev",
+    "audio_url": "/audio/erev.mp3",
+    "forms": [
+      {
+        "type": "singular-male",
+        "text": "ערב"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["مساء", "عشية"],
+        "english": ["evening", "eve"],
+        "example_sentences": [
+          {
+            "hebrew": "ערב טוב!",
+            "translation_english": "Good evening!",
+            "translation_arabic": "مساء الخير!",
+            "word_to_highlight": "ערב"
+          },
+          {
+            "hebrew": "בסרטים בערב.",
+            "translation_english": "Watching movies in the evening.",
+            "translation_arabic": "مشاهدة الأفلام في المساء.",
+            "word_to_highlight": "בערב"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-daka-123",
+    "hebrew": "דקה",
+    "categories": ["Noun", "Time"],
+    "pronunciation_text": "daka",
+    "audio_url": "/audio/daka.mp3",
+    "forms": [
+      {
+        "type": "singular-female",
+        "text": "דקה"
+      },
+      {
+        "type": "plural-female",
+        "text": "דקות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["دقيقة"],
+        "english": ["minute"],
+        "example_sentences": [
+          {
+            "hebrew": "חכה דקה.",
+            "translation_english": "Wait a minute.",
+            "translation_arabic": "انتظر دقيقة.",
+            "word_to_highlight": "דקה"
+          },
+          {
+            "hebrew": "זה ייקח כמה דקות.",
+            "translation_english": "It will take a few minutes.",
+            "translation_arabic": "سيستغرق الأمر بضع دقائق.",
+            "word_to_highlight": "דקות"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-shenyia-124",
+    "hebrew": "שניה",
+    "categories": ["Noun", "Time"],
+    "pronunciation_text": "shenyia",
+    "audio_url": "/audio/shenyia.mp3",
+    "forms": [
+      {
+        "type": "singular-female",
+        "text": "שניה"
+      },
+      {
+        "type": "plural-female",
+        "text": "שניות"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["ثانية"],
+        "english": ["second"],
+        "example_sentences": [
+          {
+            "hebrew": "חכה שניה.",
+            "translation_english": "Wait a second.",
+            "translation_arabic": "انتظر ثانية.",
+            "word_to_highlight": "שניה"
+          },
+          {
+            "hebrew": "זה קרה תוך כמה שניות.",
+            "translation_english": "It happened within a few seconds.",
+            "translation_arabic": "حدث ذلك في غضون ثوانٍ قليلة.",
+            "word_to_highlight": "שניות"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-ve-125",
+    "hebrew": "וְ-",
+    "categories": ["Conjunction"],
+    "pronunciation_text": "ve",
+    "audio_url": "/audio/ve_prefix.mp3",
+    "forms": [
+      {
+        "type": "prefix",
+        "text": "וְ-"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["و"],
+        "english": ["and"],
+        "example_sentences": [
+          {
+            "hebrew": "אני וְאַתָּה.",
+            "translation_english": "I and you (m.sg).",
+            "translation_arabic": "أنا وأنتَ.",
+            "word_to_highlight": "וְאַתָּה"
+          },
+          {
+            "hebrew": "לחם וּגְבִינָה.",
+            "translation_english": "Bread and cheese.",
+            "translation_arabic": "خبز وجبن.",
+            "word_to_highlight": "וּגְבִינָה"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-b-126",
+    "hebrew": "בְּ-",
+    "categories": ["Preposition"],
+    "pronunciation_text": "be",
+    "audio_url": "/audio/be_prefix.mp3",
+    "forms": [
+      {
+        "type": "prefix",
+        "text": "בְּ-"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["في", "بـ"],
+        "english": ["in", "at", "on", "by"],
+        "example_sentences": [
+          {
+            "hebrew": "אני גר בְּתֵל אָבִיב.",
+            "translation_english": "I live in Tel Aviv.",
+            "translation_arabic": "أنا أسكن في تل أبيب.",
+            "word_to_highlight": "בְּתֵל"
+          },
+          {
+            "hebrew": "הספר עַל הַשֻּׁלְחָן.",
+            "translation_english": "The book is on the table.",
+            "translation_arabic": "الكتاب على الطاولة.",
+            "word_to_highlight": "עַל הַשֻּׁלְחָן"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-l-127",
+    "hebrew": "לְ-",
+    "categories": ["Preposition"],
+    "pronunciation_text": "le",
+    "audio_url": "/audio/le_prefix.mp3",
+    "forms": [
+      {
+        "type": "prefix",
+        "text": "לְ-"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["إلى", "لـ"],
+        "english": ["to", "for"],
+        "example_sentences": [
+          {
+            "hebrew": "אני הולך לְבֵית הַסֵּפֶר.",
+            "translation_english": "I am going to the school.",
+            "translation_arabic": "أنا ذاهب إلى المدرسة.",
+            "word_to_highlight": "לְבֵית"
+          },
+          {
+            "hebrew": "קניתי מתנה לְךָ.",
+            "translation_english": "I bought a gift for you (m.sg).",
+            "translation_arabic": "اشتريت هدية لكَ.",
+            "word_to_highlight": "לְךָ"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-mi-prefix-128",
+    "hebrew": "מִ-",
+    "categories": ["Preposition"],
+    "pronunciation_text": "mi",
+    "audio_url": "/audio/mi_prefix.mp3",
+    "forms": [
+      {
+        "type": "prefix",
+        "text": "מִ-"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["من"],
+        "english": ["from"],
+        "example_sentences": [
+          {
+            "hebrew": "הוא בא מִתֵּל אָבִיב.",
+            "translation_english": "He comes from Tel Aviv.",
+            "translation_arabic": "هو يأتي من تل أبيب.",
+            "word_to_highlight": "מִתֵּל"
+          },
+          {
+            "hebrew": "קיבלתי מכתב מֵחָבֵר.",
+            "translation_english": "I received a letter from a friend.",
+            "translation_arabic": "استلمت رسالة من صديق.",
+            "word_to_highlight": "מֵחָבֵר"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-al-129",
+    "hebrew": "עַל",
+    "categories": ["Preposition"],
+    "pronunciation_text": "al",
+    "audio_url": "/audio/al.mp3",
+    "forms": [
+      {
+        "type": "standard",
+        "text": "עַל"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["على", "بخصوص"],
+        "english": ["on", "about"],
+        "example_sentences": [
+          {
+            "hebrew": "הספר עַל הַשֻּׁלְחָן.",
+            "translation_english": "The book is on the table.",
+            "translation_arabic": "الكتاب على الطاولة.",
+            "word_to_highlight": "עַל"
+          },
+          {
+            "hebrew": "אנחנו מדברים עַל הסרט.",
+            "translation_english": "We are talking about the movie.",
+            "translation_arabic": "نحن نتحدث عن الفيلم.",
+            "word_to_highlight": "עַל"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-im-130",
+    "hebrew": "עִם",
+    "categories": ["Preposition"],
+    "pronunciation_text": "im",
+    "audio_url": "/audio/im.mp3",
+    "forms": [
+      {
+        "type": "standard",
+        "text": "עִם"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["مع"],
+        "english": ["with"],
+        "example_sentences": [
+          {
+            "hebrew": "אני הולך לבית ספר עִם חברים.",
+            "translation_english": "I go to school with friends.",
+            "translation_arabic": "أذهب إلى المدرسة مع الأصدقاء.",
+            "word_to_highlight": "עִם"
+          },
+          {
+            "hebrew": "שתה את הקפה עִם חלב?",
+            "translation_english": "Did you (m.sg) drink the coffee with milk?",
+            "translation_arabic": "هل شربتَ القهوة مع حليب؟",
+            "word_to_highlight": "עִם"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "word-et-direct-object-131",
+    "hebrew": "אֶת",
+    "categories": ["Preposition", "Grammar"],
+    "pronunciation_text": "et",
+    "audio_url": "/audio/et_direct_object.mp3",
+    "forms": [
+      {
+        "type": "standard",
+        "text": "אֶת"
+      }
+    ],
+    "meanings": [
+      {
+        "arabic": ["(أداة مفعول به مباشر)"],
+        "english": ["(direct object marker)"],
+        "example_sentences": [
+          {
+            "hebrew": "אני רואה אֶת הַסֵּפֶר.",
+            "translation_english": "I see the book.",
+            "translation_arabic": "أنا أرى الكتاب.",
+            "word_to_highlight": "אֶת הַסֵּפֶר"
+          },
+          {
+            "hebrew": "הוא אכל אֶת הָאֹכֶל.",
+            "translation_english": "He ate the food.",
+            "translation_arabic": "هو أكل الطعام.",
+            "word_to_highlight": "אֶת הָאֹכֶל"
+          }
+        ]
+      }
+    ]
+  }
+]
