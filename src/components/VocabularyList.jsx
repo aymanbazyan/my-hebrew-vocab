@@ -1,7 +1,11 @@
 import { useState, useEffect, useMemo } from "react";
 import { useNavigate, Link } from "react-router-dom";
 
-function VocabularyList({ vocabulary }) {
+function VocabularyList({
+  vocabulary,
+  visibleVocabulary,
+  setVisibleVocabulary,
+}) {
   const [categories, setCategories] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [sortBy, setSortBy] = useState("hebrew-asc");
@@ -25,6 +29,11 @@ function VocabularyList({ vocabulary }) {
     ];
     setCategories(uniqueCategories);
   }, [vocabulary]);
+
+  // Reset visible items when filters change
+  // useEffect(() => {
+  //   setVisibleVocabulary(10);
+  // }, [selectedCategory, searchQuery, sortBy]);
 
   const sortedAndFilteredVocabulary = useMemo(() => {
     let currentVocabulary = vocabulary;
@@ -93,6 +102,17 @@ function VocabularyList({ vocabulary }) {
 
     return currentVocabulary;
   }, [vocabulary, selectedCategory, sortBy, searchQuery]);
+
+  // Handle showing more items
+  const handleShowMore = () => {
+    setVisibleVocabulary((prev) => prev + 10); // Show 10 more items each time
+  };
+
+  // Get only the visible subset of items
+  const visibleVocabularySliced = sortedAndFilteredVocabulary.slice(
+    0,
+    visibleVocabulary
+  );
 
   if (vocabulary.length === 0) {
     return (
@@ -253,7 +273,9 @@ function VocabularyList({ vocabulary }) {
 
       {/* Results counter */}
       <div className="mb-4 text-sm text-gray-600">
-        Showing {sortedAndFilteredVocabulary.length}{" "}
+        Showing{" "}
+        {Math.min(visibleVocabulary, sortedAndFilteredVocabulary.length)} of{" "}
+        {sortedAndFilteredVocabulary.length}{" "}
         {sortedAndFilteredVocabulary.length === 1 ? "word" : "words"}
         {selectedCategory !== "All" ? ` in category "${selectedCategory}"` : ""}
         {searchQuery ? ` matching "${searchQuery}"` : ""}
@@ -301,85 +323,111 @@ function VocabularyList({ vocabulary }) {
           </button>
         </div>
       ) : (
-        <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {sortedAndFilteredVocabulary.map((word) => (
-            <li
-              key={word.id}
-              className="border border-gray-200 rounded-lg overflow-hidden bg-white shadow hover:shadow-md transition-shadow"
-            >
-              <div
-                className="flex items-center justify-between p-4 cursor-pointer"
-                onClick={() => navigate(`/word/${word.id}`)}
+        <>
+          <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {visibleVocabularySliced.map((word) => (
+              <li
+                key={word.id}
+                className="border border-gray-200 rounded-lg overflow-hidden bg-white shadow hover:shadow-md transition-shadow"
               >
-                <div className="flex-1 min-w-0 mr-4">
-                  {word.meanings && word.meanings.length > 0 && (
-                    <div className="mb-1">
-                      {word.meanings[0].english && (
-                        <p className="text-gray-700 font-medium truncate">
-                          {word.meanings[0].english.join(", ")}
-                        </p>
-                      )}
-                      {word.meanings[0].arabic && (
-                        <p className="text-gray-600 text-sm truncate">
-                          {word.meanings[0].arabic.join(", ")}
-                        </p>
-                      )}
-                    </div>
-                  )}
-                  {word.categories && word.categories.length > 0 && (
-                    <div className="flex flex-wrap gap-1 mt-2">
-                      {word.categories.map((category, idx) => (
-                        <span
-                          key={idx}
-                          className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-blue-100 text-blue-800"
-                        >
-                          {category}
-                        </span>
-                      ))}
-                    </div>
-                  )}
-                </div>
-                <div className="text-right flex items-center">
-                  <h2 className="text-xl font-bold text-gray-900">
-                    {word.hebrew}
-                  </h2>
-                  <button
-                    className={`ml-3 text-blue-500 hover:text-blue-700 focus:outline-none ${
-                      !word.audio_url
-                        ? "opacity-50 cursor-not-allowed"
-                        : "hover:bg-blue-50 rounded-full p-1"
-                    }`}
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      playAudio(word.audio_url);
-                    }}
-                    disabled={!word.audio_url}
-                    title={
-                      word.audio_url
-                        ? "Play pronunciation"
-                        : "No audio available"
-                    }
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-6 w-6"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
+                <div
+                  className="flex items-center justify-between p-4 cursor-pointer"
+                  onClick={() => navigate(`/word/${word.id}`)}
+                >
+                  <div className="flex-1 min-w-0 mr-4">
+                    {word.meanings && word.meanings.length > 0 && (
+                      <div className="mb-1">
+                        {word.meanings[0].english && (
+                          <p className="text-gray-700 font-medium truncate">
+                            {word.meanings[0].english.join(", ")}
+                          </p>
+                        )}
+                        {word.meanings[0].arabic && (
+                          <p className="text-gray-600 text-sm truncate">
+                            {word.meanings[0].arabic.join(", ")}
+                          </p>
+                        )}
+                      </div>
+                    )}
+                    {word.categories && word.categories.length > 0 && (
+                      <div className="flex flex-wrap gap-1 mt-2">
+                        {word.categories.map((category, idx) => (
+                          <span
+                            key={idx}
+                            className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-blue-100 text-blue-800"
+                          >
+                            {category}
+                          </span>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                  <div className="text-right flex items-center">
+                    <h2 className="text-xl font-bold text-gray-900">
+                      {word.hebrew}
+                    </h2>
+                    <button
+                      className={`ml-3 text-blue-500 hover:text-blue-700 focus:outline-none ${
+                        !word.audio_url
+                          ? "opacity-50 cursor-not-allowed"
+                          : "hover:bg-blue-50 rounded-full p-1"
+                      }`}
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        playAudio(word.audio_url);
+                      }}
+                      disabled={!word.audio_url}
+                      title={
+                        word.audio_url
+                          ? "Play pronunciation"
+                          : "No audio available"
+                      }
                     >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M15.536 8.464a5 5 0 010 7.072m2.828-9.899a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l1.586-1.586a1 1 0 011.414 0L12 9.172V15.828l-2.828 2.828a1 1 0 01-1.414 0L5.586 15z"
-                      />
-                    </svg>
-                  </button>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="h-6 w-6"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M15.536 8.464a5 5 0 010 7.072m2.828-9.899a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l1.586-1.586a1 1 0 011.414 0L12 9.172V15.828l-2.828 2.828a1 1 0 01-1.414 0L5.586 15z"
+                        />
+                      </svg>
+                    </button>
+                  </div>
                 </div>
-              </div>
-            </li>
-          ))}
-        </ul>
+              </li>
+            ))}
+          </ul>
+
+          {/* Show More Button */}
+          {visibleVocabulary < sortedAndFilteredVocabulary.length && (
+            <div className="flex justify-center mt-8">
+              <button
+                onClick={handleShowMore}
+                className="bg-white border border-gray-300 shadow-sm hover:bg-gray-50 text-gray-700 font-medium py-2 px-6 rounded-md transition duration-200 flex items-center"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-5 w-5 mr-2"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+                Show More
+              </button>
+            </div>
+          )}
+        </>
       )}
     </div>
   );

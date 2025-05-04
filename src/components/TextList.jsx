@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from "react";
 import { Link } from "react-router-dom";
 
-function TextList({ texts }) {
+function TextList({ texts, visibleTexts, setVisibleTexts }) {
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("All");
 
@@ -13,6 +13,11 @@ function TextList({ texts }) {
     ];
     return uniqueCategories;
   }, [texts]);
+
+  // Reset display count when filters change
+  // useEffect(() => {
+  //   setVisibleTexts(10);
+  // }, [searchQuery, selectedCategory]);
 
   // Filter texts based on search query and selected category
   const filteredTexts = useMemo(() => {
@@ -53,6 +58,14 @@ function TextList({ texts }) {
 
     return currentTexts;
   }, [texts, selectedCategory, searchQuery]);
+
+  // Get the texts to display based on current display count
+  const textsToDisplay = filteredTexts.slice(0, visibleTexts);
+
+  // Handle show more button click
+  const handleShowMore = () => {
+    setVisibleTexts((prevCount) => prevCount + 10); // Load 10 more texts
+  };
 
   if (texts.length === 0) {
     return (
@@ -221,8 +234,8 @@ function TextList({ texts }) {
 
       {/* Results counter */}
       <div className="mb-4 text-sm text-gray-600">
-        Showing {filteredTexts.length}{" "}
-        {filteredTexts.length === 1 ? "text" : "texts"}
+        Showing {Math.min(visibleTexts, filteredTexts.length)} of{" "}
+        {filteredTexts.length} {filteredTexts.length === 1 ? "text" : "texts"}
         {selectedCategory !== "All" ? ` in category "${selectedCategory}"` : ""}
         {searchQuery ? ` matching "${searchQuery}"` : ""}
       </div>
@@ -269,69 +282,95 @@ function TextList({ texts }) {
           </button>
         </div>
       ) : (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {filteredTexts.map((text) => (
-            <Link
-              key={text.id}
-              to={`/texts/${text.id}`}
-              className="block bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-md transition-shadow group"
-            >
-              <div className="p-5">
-                <div className="flex items-start justify-between mb-2">
-                  <h2 className="text-xl font-semibold text-gray-800 group-hover:text-blue-600 transition-colors duration-200 line-clamp-2">
-                    {text.title}
-                  </h2>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-5 w-5 text-gray-400 group-hover:text-blue-500 transition-colors duration-200"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                </div>
-
-                {text.category && (
-                  <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
-                    {text.category}
-                  </span>
-                )}
-
-                {text.hebrew_text && (
-                  <div
-                    dir="rtl"
-                    className="mt-3 text-right text-gray-600 text-sm overflow-hidden line-clamp-2 dir-rtl"
-                  >
-                    {text.hebrew_text.substring(0, 100)}
-                    {text.hebrew_text.length > 100 ? "..." : ""}
+        <>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {textsToDisplay.map((text) => (
+              <Link
+                key={text.id}
+                to={`/texts/${text.id}`}
+                className="block bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-md transition-shadow group"
+              >
+                <div className="p-5">
+                  <div className="flex items-start justify-between mb-2">
+                    <h2 className="text-xl font-semibold text-gray-800 group-hover:text-blue-600 transition-colors duration-200 line-clamp-2">
+                      {text.title}
+                    </h2>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-5 w-5 text-gray-400 group-hover:text-blue-500 transition-colors duration-200"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
                   </div>
-                )}
 
-                <div className="mt-3 text-gray-500 text-sm flex items-center">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-4 w-4 mr-1"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                    />
-                  </svg>
-                  Click to view full text
+                  {text.category && (
+                    <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
+                      {text.category}
+                    </span>
+                  )}
+
+                  {text.hebrew_text && (
+                    <div
+                      dir="rtl"
+                      className="mt-3 text-right text-gray-600 text-sm overflow-hidden line-clamp-2 dir-rtl"
+                    >
+                      {text.hebrew_text.substring(0, 100)}
+                      {text.hebrew_text.length > 100 ? "..." : ""}
+                    </div>
+                  )}
+
+                  <div className="mt-3 text-gray-500 text-sm flex items-center">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-4 w-4 mr-1"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                      />
+                    </svg>
+                    Click to view full text
+                  </div>
                 </div>
-              </div>
-            </Link>
-          ))}
-        </div>
+              </Link>
+            ))}
+          </div>
+
+          {/* Show More Button */}
+          {visibleTexts < filteredTexts.length && (
+            <div className="flex justify-center mt-8">
+              <button
+                onClick={handleShowMore}
+                className="bg-white border border-gray-300 shadow-sm hover:bg-gray-50 text-gray-700 font-medium py-2 px-6 rounded-md transition duration-200 flex items-center"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-5 w-5 mr-2"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+                Show More
+              </button>
+            </div>
+          )}
+        </>
       )}
     </div>
   );
